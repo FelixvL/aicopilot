@@ -99,16 +99,16 @@ XXXXXXXXXXX +
 
 
 
--- Enter: +
+*Enter:* +
 Import-Module Microsoft.Graph.Users +
--- Enter: +
+*Enter:* +
 Connect-MgGraph -Scopes 'User.ReadWrite.All', 'RoleManagement.ReadWrite.Directory' +
 --> select the Consent on behalf of your organization check box +
--- Enter: +
+*Enter:* +
 Get-MgDirectoryRole +
--- Enter: +
+*Enter:* +
 Get-MgDirectoryRoleTemplate | Format-List Id, DisplayName +
--- Enter: +
+*Enter:* +
 Get-MgDirectoryRoleTemplate | ? DisplayName -eq "Service Support Administrator" +
 --> copy id of Service Support Administrator +
 -- Enter: +
