@@ -62,12 +62,13 @@ Ga in LON01 naar portal.office.com -> sign out -> sign in as USERX -> go to Admi
 Teams & Groups -> Active Teams & Groups -> Select Your TEAMX -> Membership -> Members -> + Add Members -> USERX -> Refresh +
 Check Theme changements -> User -> Active Users -> Hover over name click Key(reset password) +
 XXXXXXNOG EEN KEER DOEN +
--3- Deploy MFA Conditional Access +
--- Under Admin Centers select Identity -> Protection -> Conditional Access -> Policies -> + New Policy -> Fill Name  +
--- Check 0 users and groups selected -> Select Exclude -> Users and Groups -> Groups -> Select TEAMX  +
--- Targer resources -> No target selected -> Include (do nothing) -> Select apps (radiobutton) -> Check it -> Include ->  +
--- Select All cloud apps +
--- Conditions -> 0 conditions selected -> Locations -> Not Configured -> Configure Toggle to Yes -> Exclude -> Selected Locations -> Select -> Verify None -> Access Controls -> Grant -> 0 controls selected -> Grant pane -> Grant Acess -> Require multifactor authentication -> Select -> Enable Policy to On -> Create +
+
+===== 3- Deploy MFA Conditional Access +
+Under Admin Centers select Identity -> Protection -> Conditional Access -> Policies -> + New Policy -> Fill Name  +
+Check 0 users and groups selected -> Select Exclude -> Users and Groups -> Groups -> Select TEAMX  +
+Targer resources -> No target selected -> Include (do nothing) -> Select apps (radiobutton) -> Check it -> Include ->  +
+Select All cloud apps +
+Conditions -> 0 conditions selected -> Locations -> Not Configured -> Configure Toggle to Yes -> Exclude -> Selected Locations -> Select -> Verify None -> Access Controls -> Grant -> 0 controls selected -> Grant pane -> Grant Acess -> Require multifactor authentication -> Select -> Enable Policy to On -> Create +
 XXXXXXXXXXX +
 -4- +
 -- Sign Out -> Zoek wachtwoord user op -> login met MFA +

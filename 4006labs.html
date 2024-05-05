@@ -507,8 +507,17 @@ Users &#8594; Active Users &#8594; + Add a user (USERX) &#8594; assign License &
 <p>Ga in LON01 naar portal.office.com &#8594; sign out &#8594; sign in as USERX &#8594; go to Admin Center <br>
 Teams &amp; Groups &#8594; Active Teams &amp; Groups &#8594; Select Your TEAMX &#8594; Membership &#8594; Members &#8594; + Add Members &#8594; USERX &#8594; Refresh<br>
 Check Theme changements &#8594; User &#8594; Active Users &#8594; Hover over name click Key(reset password)<br>
-XXXXXXNOG EEN KEER DOEN<br>
--3- Deploy MFA Conditional Access +&#8201;&#8212;&#8201;Under Admin Centers select Identity &#8594; Protection &#8594; Conditional Access &#8594; Policies &#8594; + New Policy &#8594; Fill Name  +&#8201;&#8212;&#8201;Check 0 users and groups selected &#8594; Select Exclude &#8594; Users and Groups &#8594; Groups &#8594; Select TEAMX  +&#8201;&#8212;&#8201;Targer resources &#8594; No target selected &#8594; Include (do nothing) &#8594; Select apps (radiobutton) &#8594; Check it &#8594; Include &#8594;  +&#8201;&#8212;&#8201;Select All cloud apps +&#8201;&#8212;&#8201;Conditions &#8594; 0 conditions selected &#8594; Locations &#8594; Not Configured &#8594; Configure Toggle to Yes &#8594; Exclude &#8594; Selected Locations &#8594; Select &#8594; Verify None &#8594; Access Controls &#8594; Grant &#8594; 0 controls selected &#8594; Grant pane &#8594; Grant Acess &#8594; Require multifactor authentication &#8594; Select &#8594; Enable Policy to On &#8594; Create<br>
+XXXXXXNOG EEN KEER DOEN<br></p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_3_deploy_mfa_conditional_access">3- Deploy MFA Conditional Access<br></h5>
+<div class="paragraph">
+<p>Under Admin Centers select Identity &#8594; Protection &#8594; Conditional Access &#8594; Policies &#8594; + New Policy &#8594; Fill Name <br>
+Check 0 users and groups selected &#8594; Select Exclude &#8594; Users and Groups &#8594; Groups &#8594; Select TEAMX <br>
+Targer resources &#8594; No target selected &#8594; Include (do nothing) &#8594; Select apps (radiobutton) &#8594; Check it &#8594; Include &#8594; <br>
+Select All cloud apps<br>
+Conditions &#8594; 0 conditions selected &#8594; Locations &#8594; Not Configured &#8594; Configure Toggle to Yes &#8594; Exclude &#8594; Selected Locations &#8594; Select &#8594; Verify None &#8594; Access Controls &#8594; Grant &#8594; 0 controls selected &#8594; Grant pane &#8594; Grant Acess &#8594; Require multifactor authentication &#8594; Select &#8594; Enable Policy to On &#8594; Create<br>
 XXXXXXXXXXX<br>
 -4- +&#8201;&#8212;&#8201;Sign Out &#8594; Zoek wachtwoord user op &#8594; login met MFA +&#8201;&#8212;&#8201;Lid van de andere groep heeft nergens last van<br>
 -5- +&#8201;&#8212;&#8201;Server Manager &#8594; Tools &#8594;select Group Policy Management &#8594; expand Domains &#8594; expand Adatum.com &#8594; right-click on Default  +&#8201;&#8212;&#8201;Domain Policy &#8594; select Edit &#8594; under Computer Configuration &#8594; expand Policies &#8594; expand Windows Settings &#8594;  +&#8201;&#8212;&#8201;expand Security Settings &#8594; expand Account Policies &#8594; select Account Lockout Policy<br>
@@ -844,7 +853,7 @@ Select Send.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-05-05 23:23:50 +0200
+Last updated 2024-05-05 23:24:32 +0200
 </div>
 </div>
 </body>
