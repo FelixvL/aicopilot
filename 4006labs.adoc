@@ -102,19 +102,19 @@ XXXXXXXXXXX +
 -- Enter: +
 Import-Module Microsoft.Graph.Users +
 -- Enter: +
-Connect-MgGraph -Scopes 'User.ReadWrite.All', 'RoleManagement.ReadWrite.Directory'
---> select the Consent on behalf of your organization check box
--- Enter:
-Get-MgDirectoryRole
--- Enter:
-Get-MgDirectoryRoleTemplate | Format-List Id, DisplayName
--- Enter:
-Get-MgDirectoryRoleTemplate | ? DisplayName -eq "Service Support Administrator"
---> copy id of Service Support Administrator
--- Enter:
-$ServiceSupportRoleTemplate = @{ RoleTemplateID = "f023fd81-a637-4b56-95fd-791ac0226033" }
--- Enter:
-New-MgDirectoryRole -BodyParameter $ServiceSupportRoleTemplate
+Connect-MgGraph -Scopes 'User.ReadWrite.All', 'RoleManagement.ReadWrite.Directory' +
+--> select the Consent on behalf of your organization check box +
+-- Enter: +
+Get-MgDirectoryRole +
+-- Enter: +
+Get-MgDirectoryRoleTemplate | Format-List Id, DisplayName +
+-- Enter: +
+Get-MgDirectoryRoleTemplate | ? DisplayName -eq "Service Support Administrator" +
+--> copy id of Service Support Administrator +
+-- Enter: +
+$ServiceSupportRoleTemplate = @{ RoleTemplateID = "f023fd81-a637-4b56-95fd-791ac0226033" } +
+-- Enter: +
+New-MgDirectoryRole -BodyParameter $ServiceSupportRoleTemplate +
 -- Enter:
 Get-MgDirectoryRole
 -- Enter:

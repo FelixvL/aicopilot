@@ -516,14 +516,14 @@ XXXXXXXXXXX<br>
 <div class="paragraph">
 <p>&#8201;&#8212;&#8201;Enter:<br>
 Import-Module Microsoft.Graph.Users +&#8201;&#8212;&#8201;Enter:<br>
-Connect-MgGraph -Scopes 'User.ReadWrite.All', 'RoleManagement.ReadWrite.Directory'
--&#8594; select the Consent on behalf of your organization check box&#8201;&#8212;&#8201;Enter:
-Get-MgDirectoryRole&#8201;&#8212;&#8201;Enter:
-Get-MgDirectoryRoleTemplate | Format-List Id, DisplayName&#8201;&#8212;&#8201;Enter:
-Get-MgDirectoryRoleTemplate | ? DisplayName -eq "Service Support Administrator"
--&#8594; copy id of Service Support Administrator&#8201;&#8212;&#8201;Enter:
-$ServiceSupportRoleTemplate = @{ RoleTemplateID = "f023fd81-a637-4b56-95fd-791ac0226033" }&#8201;&#8212;&#8201;Enter:
-New-MgDirectoryRole -BodyParameter $ServiceSupportRoleTemplate&#8201;&#8212;&#8201;Enter:
+Connect-MgGraph -Scopes 'User.ReadWrite.All', 'RoleManagement.ReadWrite.Directory'<br>
+-&#8594; select the Consent on behalf of your organization check box +&#8201;&#8212;&#8201;Enter:<br>
+Get-MgDirectoryRole +&#8201;&#8212;&#8201;Enter:<br>
+Get-MgDirectoryRoleTemplate | Format-List Id, DisplayName +&#8201;&#8212;&#8201;Enter:<br>
+Get-MgDirectoryRoleTemplate | ? DisplayName -eq "Service Support Administrator"<br>
+-&#8594; copy id of Service Support Administrator +&#8201;&#8212;&#8201;Enter:<br>
+$ServiceSupportRoleTemplate = @{ RoleTemplateID = "f023fd81-a637-4b56-95fd-791ac0226033" } +&#8201;&#8212;&#8201;Enter:<br>
+New-MgDirectoryRole -BodyParameter $ServiceSupportRoleTemplate +&#8201;&#8212;&#8201;Enter:
 Get-MgDirectoryRole&#8201;&#8212;&#8201;Enter:
 Get-MgUser | Format-List ID, DisplayName&#8201;&#8212;&#8201;Enter:
 Get-MgUser | ? DisplayName -like "Patti*"
@@ -817,7 +817,7 @@ Select Send.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-05-05 23:05:15 +0200
+Last updated 2024-05-05 23:06:40 +0200
 </div>
 </div>
 </body>
