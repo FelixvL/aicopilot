@@ -51,7 +51,7 @@ Microsoft Authenticator, Smart Lockout Policies () +
 Permissions, Roles, Privileged Identity Management +
 
 LAB 2 +
--1- Assign License +
+= -1- Assign License +
 Billing -> Licenses -> (Check no license available) ->  +
 Users -> Active Users -> click on Christie Cline -> Licenses and apps tab -> clear checkbox -> Save +
 Users -> Active Users -> + Add a user (USERX) -> assign License -> Roles: Admin center access -> Global administrator -> Finish +
