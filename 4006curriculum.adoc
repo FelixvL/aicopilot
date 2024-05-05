@@ -10,7 +10,7 @@ Aanmaken Accounts door docent in admin.office.com waardoor Studenten toegang heb
 
 ==== 1030 - 1130
 *Accent op:* Powerpoints en demonstraties mbv Microsoft Learn 4005 +
-*Exercise (als demo gegeven)*, deeplink: https://learn.microsoft.com/en-us/training/paths/empower-workforce-copilot-use-cases/ +
+*Exercise (als demo gegeven)*, deeplink: https://learn.microsoft.com/en-us/training/paths/empower-workforce-copilot-use-cases/[https://learn.microsoft.com/en-us/training/paths/empower-workforce-copilot-use-cases/, window="_blank"] +
 
 *Essentie (4004 ppt1)*  Copilot, LLM, NLP en toepassing in Word, Excel, PowerPoint, Outlook, Teams +
 		Prompting en Plugins +
