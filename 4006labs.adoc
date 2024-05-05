@@ -191,7 +191,7 @@ Name your policy page -> select Submit -> select Done. +
 
 Task 3 – Assign a pre-existing sensitivity label to a document +
 As outlined in the instructions at the start of this lab, it isn't possible to immediately test the sensitivity label and label policy that you created in the previous task. This is because it takes up to 24 hours for a new label policy to propagate through Microsoft 365 and for its label to become visible in applications like Microsoft Word and Outlook. +
-
+----------------------------
 Instead, you will test one of Microsoft 365's pre-existing sensitivity labels. For this lab, you will use the Project - Falcon sensitivity label, which is a Highly Confidential label. This label is similar to the label that you created in the prior task - the one exception being that it doesn't include a header or footer. Using this pre-existing label will give you a good idea as to how the label that you created would work at Adatum. +
 
 On LON-CL1, in your Edge browser, you should still be logged into Microsoft 365 as Holly Dickson. +
