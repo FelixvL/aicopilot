@@ -95,12 +95,12 @@ logged in -> select Users -> Active Users -> select Diego Siciliani -> select Ma
 Show all by category -> Other - select Billing Administrator check box -> Save -> select the X  +
 
 
--> Teams & groups -> Active teams & groups -> Security groups tab -> +Add a security group -> enter User management role group -> Select Next -> select Azure AD roles can be assigned -> Next -> Create group -> Close. +
--> USERGROUPX to open its details pane -> select Manage roles -> Admin center access option -> User Administrator and User Experience Success Manager check boxes -> Show all by category -> Identity category -> Helpdesk Administrator -> Save changes. +
+Teams & groups -> Active teams & groups -> Security groups tab -> +Add a security group -> enter User management role group -> Select Next -> select Azure AD roles can be assigned -> Next -> Create group -> Close. +
+USERGROUPX to open its details pane -> select Manage roles -> Admin center access option -> User Administrator and User Experience Success Manager check boxes -> Show all by category -> Identity category -> Helpdesk Administrator -> Save changes. +
 
--> X -> Security groups tab, select USERGROUPX -> three roles appear -> Close this pane. +
--> select Active users -> select Lynne Robbins -> select Manage groups -> +Assign memberships select USERGROUPX -> Add(1) +
--> see the three User management roles -> Back -> select Manage roles -> see Roles +
+X -> Security groups tab, select USERGROUPX -> three roles appear -> Close this pane. +
+select Active users -> select Lynne Robbins -> select Manage groups -> +Assign memberships select USERGROUPX -> Add(1) +
+see the three User management roles -> Back -> select Manage roles -> see Roles +
 
 
 
