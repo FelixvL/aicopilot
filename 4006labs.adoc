@@ -22,9 +22,8 @@ Propriety Data, Isolation and Access Control
 ==== LAB1
 https://www.the-academy.nl/learn?course=ms-4006&student=21650
 
-admin@WWLx787064.onmicrosoft.com +
+admin@WWLx583042.onmicrosoft.com +
 Pa55w.rd23 +
-Pa66w.rd42
 
 ===== 1- Login +
 
