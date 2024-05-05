@@ -33,13 +33,13 @@ Pa66w.rd42
 -- Teams & Groups -> Active Teams & Groups -> + Add a Team (TEAMX) -> Finish +
 -- Show all -> Settings -> Org Settings -> Organisation Profile -> Custom Themes -> + Add Theme +
 -4- Install Graph +
---Enter: +
+*Enter:* +
 Install-Module Microsoft.Graph -Scope CurrentUser +
---Enter: +
+*Enter:* +
 Get-InstalledModule Microsoft.Graph.* | select *name* +
---Enter (if not installed): +
+*Enter:* (if not installed): +
 Install-Module -Name Microsoft.Graph.Identity.DirectoryManagement +
---Enter: +
+*Enter:* +
 Set-ExecutionPolicy unrestricted +
 
 
