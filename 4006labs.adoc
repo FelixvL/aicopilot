@@ -22,8 +22,8 @@ Propriety Data, Isolation and Access Control
 LAB1
 https://labs3.virsoft.net/the-academy/ms-102/html5?user=150
 
-admin@WWLx787064.onmicrosoft.com
-Pa55w.rd23
+admin@WWLx787064.onmicrosoft.com +
+Pa55w.rd23 +
 Pa66w.rd42
 
 -1- Login
