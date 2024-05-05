@@ -471,307 +471,353 @@ Pa66w.rd42</p>
 </div>
 <div class="paragraph">
 <p>-1- Login<br>
--2- Wijzig Organisation Information +&#8201;&#8212;&#8201;inloggen portal.office.com &#8594; admin icoontje &#8594; Show all &#8594; Settings &#8594; OrgSettings &#8594; Organization information
--3- Custom Theme Aanmaken&#8201;&#8212;&#8201;Teams &amp; Groups &#8594; Active Teams &amp; Groups &#8594; + Add a Team (TEAMX) &#8594; Finish&#8201;&#8212;&#8201;Show all &#8594; Settings &#8594; Org Settings &#8594; Organisation Profile &#8594; Custom Themes &#8594; + Add Theme
--4- Install Graph
---Enter:
-Install-Module Microsoft.Graph -Scope CurrentUser
---Enter:
-Get-InstalledModule Microsoft.Graph.* | select <strong>name</strong>
---Enter (if not installed):
-Install-Module -Name Microsoft.Graph.Identity.DirectoryManagement
---Enter:
-Set-ExecutionPolicy unrestricted</p>
+-2- Wijzig Organisation Information +&#8201;&#8212;&#8201;inloggen portal.office.com &#8594; admin icoontje &#8594; Show all &#8594; Settings &#8594; OrgSettings &#8594; Organization information<br>
+-3- Custom Theme Aanmaken +&#8201;&#8212;&#8201;Teams &amp; Groups &#8594; Active Teams &amp; Groups &#8594; + Add a Team (TEAMX) &#8594; Finish +&#8201;&#8212;&#8201;Show all &#8594; Settings &#8594; Org Settings &#8594; Organisation Profile &#8594; Custom Themes &#8594; + Add Theme<br>
+-4- Install Graph<br>
+--Enter:<br>
+Install-Module Microsoft.Graph -Scope CurrentUser<br>
+--Enter:<br>
+Get-InstalledModule Microsoft.Graph.* | select <strong>name</strong><br>
+--Enter (if not installed):<br>
+Install-Module -Name Microsoft.Graph.Identity.DirectoryManagement<br>
+--Enter:<br>
+Set-ExecutionPolicy unrestricted<br></p>
 </div>
 <div class="paragraph">
 <p>2
-Entra, SSO, MFA, Bann bad passwords, Conditional Access, Entra Passthrough Authentication, Passwordless SignIn,
-Microsoft Authenticator, Smart Lockout Policies ()
--
-Permissions, Roles, Privileged Identity Management</p>
+Entra, SSO, MFA, Bann bad passwords, Conditional Access, Entra Passthrough Authentication, Passwordless SignIn,<br>
+Microsoft Authenticator, Smart Lockout Policies ()<br>
+-<br>
+Permissions, Roles, Privileged Identity Management<br></p>
 </div>
 <div class="paragraph">
-<p>LAB 2
--1- Assign License&#8201;&#8212;&#8201;Billing &#8594; Licenses &#8594; (Check no license available) &#8594;&#8201;&#8212;&#8201;Users &#8594; Active Users &#8594; click on Christie Cline &#8594; Licenses and apps tab &#8594; clear checkbox &#8594; Save&#8201;&#8212;&#8201;Users &#8594; Active Users &#8594; + Add a user (USERX) &#8594; assign License &#8594; Roles: Admin center access &#8594; Global administrator &#8594; Finish
--2- Setup Account&#8201;&#8212;&#8201;Ga in LON01 naar portal.office.com &#8594; sign out &#8594; sign in as USERX &#8594; go to Admin Center&#8201;&#8212;&#8201;Teams &amp; Groups &#8594; Active Teams &amp; Groups &#8594; Select Your TEAMX &#8594; Membership &#8594; Members &#8594; + Add Members &#8594; USERX &#8594; Refresh&#8201;&#8212;&#8201;Check Theme changements &#8594; User &#8594; Active Users &#8594; Hover over name click Key(reset password)
-XXXXXXNOG EEN KEER DOEN
--3- Deploy MFA Conditional Access&#8201;&#8212;&#8201;Under Admin Centers select Identity &#8594; Protection &#8594; Conditional Access &#8594; Policies &#8594; + New Policy &#8594; Fill Name&#8201;&#8212;&#8201;Check 0 users and groups selected &#8594; Select Exclude &#8594; Users and Groups &#8594; Groups &#8594; Select TEAMX&#8201;&#8212;&#8201;Targer resources &#8594; No target selected &#8594; Include (do nothing) &#8594; Select apps (radiobutton) &#8594; Check it &#8594; Include &#8594;&#8201;&#8212;&#8201;Select All cloud apps&#8201;&#8212;&#8201;Conditions &#8594; 0 conditions selected &#8594; Locations &#8594; Not Configured &#8594; Configure Toggle to Yes &#8594; Exclude &#8594; Selected Locations &#8594; Select &#8594; Verify None &#8594; Access Controls &#8594; Grant &#8594; 0 controls selected &#8594; Grant pane &#8594; Grant Acess &#8594; Require multifactor authentication &#8594; Select &#8594; Enable Policy to On &#8594; Create
-XXXXXXXXXXX
--4-&#8201;&#8212;&#8201;Sign Out &#8594; Zoek wachtwoord user op &#8594; login met MFA&#8201;&#8212;&#8201;Lid van de andere groep heeft nergens last van
--5-&#8201;&#8212;&#8201;Server Manager &#8594; Tools &#8594;select Group Policy Management &#8594; expand Domains &#8594; expand Adatum.com &#8594; right-click on Default&#8201;&#8212;&#8201;Domain Policy &#8594; select Edit &#8594; under Computer Configuration &#8594; expand Policies &#8594; expand Windows Settings &#8594;&#8201;&#8212;&#8201;expand Security Settings &#8594; expand Account Policies &#8594; select Account Lockout Policy</p>
+<p>LAB 2<br>
+-1- Assign License +&#8201;&#8212;&#8201;Billing &#8594; Licenses &#8594; (Check no license available) &#8594;  +&#8201;&#8212;&#8201;Users &#8594; Active Users &#8594; click on Christie Cline &#8594; Licenses and apps tab &#8594; clear checkbox &#8594; Save +&#8201;&#8212;&#8201;Users &#8594; Active Users &#8594; + Add a user (USERX) &#8594; assign License &#8594; Roles: Admin center access &#8594; Global administrator &#8594; Finish<br>
+-2- Setup Account +&#8201;&#8212;&#8201;Ga in LON01 naar portal.office.com &#8594; sign out &#8594; sign in as USERX &#8594; go to Admin Center  +&#8201;&#8212;&#8201;Teams &amp; Groups &#8594; Active Teams &amp; Groups &#8594; Select Your TEAMX &#8594; Membership &#8594; Members &#8594; + Add Members &#8594; USERX &#8594; Refresh +&#8201;&#8212;&#8201;Check Theme changements &#8594; User &#8594; Active Users &#8594; Hover over name click Key(reset password)<br>
+XXXXXXNOG EEN KEER DOEN<br>
+-3- Deploy MFA Conditional Access +&#8201;&#8212;&#8201;Under Admin Centers select Identity &#8594; Protection &#8594; Conditional Access &#8594; Policies &#8594; + New Policy &#8594; Fill Name  +&#8201;&#8212;&#8201;Check 0 users and groups selected &#8594; Select Exclude &#8594; Users and Groups &#8594; Groups &#8594; Select TEAMX  +&#8201;&#8212;&#8201;Targer resources &#8594; No target selected &#8594; Include (do nothing) &#8594; Select apps (radiobutton) &#8594; Check it &#8594; Include &#8594;  +&#8201;&#8212;&#8201;Select All cloud apps +&#8201;&#8212;&#8201;Conditions &#8594; 0 conditions selected &#8594; Locations &#8594; Not Configured &#8594; Configure Toggle to Yes &#8594; Exclude &#8594; Selected Locations &#8594; Select &#8594; Verify None &#8594; Access Controls &#8594; Grant &#8594; 0 controls selected &#8594; Grant pane &#8594; Grant Acess &#8594; Require multifactor authentication &#8594; Select &#8594; Enable Policy to On &#8594; Create<br>
+XXXXXXXXXXX<br>
+-4- +&#8201;&#8212;&#8201;Sign Out &#8594; Zoek wachtwoord user op &#8594; login met MFA +&#8201;&#8212;&#8201;Lid van de andere groep heeft nergens last van<br>
+-5- +&#8201;&#8212;&#8201;Server Manager &#8594; Tools &#8594;select Group Policy Management &#8594; expand Domains &#8594; expand Adatum.com &#8594; right-click on Default  +&#8201;&#8212;&#8201;Domain Policy &#8594; select Edit &#8594; under Computer Configuration &#8594; expand Policies &#8594; expand Windows Settings &#8594;  +&#8201;&#8212;&#8201;expand Security Settings &#8594; expand Account Policies &#8594; select Account Lockout Policy<br>
+---- +&#8201;&#8212;&#8201;Login &#8594; select Admin &#8594; select Identity &#8594; select Protection &#8594; select Authentication methods &#8594; select Password protection +&#8201;&#8212;&#8201;Fill out Lockout threshold: 3 &#8594; Lockout duration in seconds: 90 &#8594; Enforce custom list: select Yes +&#8201;&#8212;&#8201;Custom banned password list: (kies woorden per regel) &#8594; Mode select Enforced &#8594; Save +&#8201;&#8212;&#8201;User-Icoontje rechtsboven &#8594; View Account &#8594; Change Password &#8594; check de regels<br></p>
 </div>
-<div class="listingblock">
-<div class="content">
-<pre>-- Login -&gt; select Admin -&gt; select Identity -&gt; select Protection -&gt; select Authentication methods -&gt; select Password protection
--- Fill out Lockout threshold: 3 -&gt; Lockout duration in seconds: 90 -&gt; Enforce custom list: select Yes
--- Custom banned password list: (kies woorden per regel) -&gt; Mode select Enforced -&gt; Save
--- User-Icoontje rechtsboven -&gt; View Account -&gt; Change Password -&gt; check de regels
-
-
-
--- Lab 3
--- logged in -&gt; select Users -&gt; Active Users -&gt; select Diego Siciliani -&gt; select Manage roles -&gt; select the Admin center access option
--- Show all by category -&gt; Other - select Billing Administrator check box -&gt; Save -&gt; select the X
-
-
--&gt; Teams &amp; groups -&gt; Active teams &amp; groups -&gt; Security groups tab -&gt; +Add a security group -&gt; enter User management role group -&gt; Select Next -&gt; select Azure AD roles can be assigned -&gt; Next -&gt; Create group -&gt; Close.
--&gt; USERGROUPX to open its details pane -&gt; select Manage roles -&gt; Admin center access option -&gt; User Administrator and User Experience Success Manager check boxes -&gt; Show all by category -&gt; Identity category -&gt; Helpdesk Administrator -&gt; Save changes.
-
--&gt; X -&gt; Security groups tab, select USERGROUPX -&gt; three roles appear -&gt; Close this pane.
--&gt; select Active users -&gt; select Lynne Robbins -&gt; select Manage groups -&gt; +Assign memberships select USERGROUPX -&gt; Add(1)
--&gt; see the three User management roles -&gt; Back -&gt; select Manage roles -&gt; see Roles
-
-
-
-
-
-
--- Enter:
-Import-Module Microsoft.Graph.Users
--- Enter:
+<div class="paragraph">
+<p>&#8201;&#8212;&#8201;Lab 3 +&#8201;&#8212;&#8201;logged in &#8594; select Users &#8594; Active Users &#8594; select Diego Siciliani &#8594; select Manage roles &#8594; select the Admin center access option  +&#8201;&#8212;&#8201;Show all by category &#8594; Other - select Billing Administrator check box &#8594; Save &#8594; select the X <br></p>
+</div>
+<div class="paragraph">
+<p>&#8594; Teams &amp; groups &#8594; Active teams &amp; groups &#8594; Security groups tab &#8594; +Add a security group &#8594; enter User management role group &#8594; Select Next &#8594; select Azure AD roles can be assigned &#8594; Next &#8594; Create group &#8594; Close.<br>
+&#8594; USERGROUPX to open its details pane &#8594; select Manage roles &#8594; Admin center access option &#8594; User Administrator and User Experience Success Manager check boxes &#8594; Show all by category &#8594; Identity category &#8594; Helpdesk Administrator &#8594; Save changes.<br></p>
+</div>
+<div class="paragraph">
+<p>&#8594; X &#8594; Security groups tab, select USERGROUPX &#8594; three roles appear &#8594; Close this pane.<br>
+&#8594; select Active users &#8594; select Lynne Robbins &#8594; select Manage groups &#8594; +Assign memberships select USERGROUPX &#8594; Add(1)<br>
+&#8594; see the three User management roles &#8594; Back &#8594; select Manage roles &#8594; see Roles<br></p>
+</div>
+<div class="paragraph">
+<p>&#8201;&#8212;&#8201;Enter:<br>
+Import-Module Microsoft.Graph.Users +&#8201;&#8212;&#8201;Enter:<br>
 Connect-MgGraph -Scopes 'User.ReadWrite.All', 'RoleManagement.ReadWrite.Directory'
---&gt; select the Consent on behalf of your organization check box
--- Enter:
-Get-MgDirectoryRole
--- Enter:
-Get-MgDirectoryRoleTemplate | Format-List Id, DisplayName
--- Enter:
+-&#8594; select the Consent on behalf of your organization check box&#8201;&#8212;&#8201;Enter:
+Get-MgDirectoryRole&#8201;&#8212;&#8201;Enter:
+Get-MgDirectoryRoleTemplate | Format-List Id, DisplayName&#8201;&#8212;&#8201;Enter:
 Get-MgDirectoryRoleTemplate | ? DisplayName -eq "Service Support Administrator"
---&gt; copy id of Service Support Administrator
--- Enter:
-$ServiceSupportRoleTemplate = @{ RoleTemplateID = "f023fd81-a637-4b56-95fd-791ac0226033" }
--- Enter:
-New-MgDirectoryRole -BodyParameter $ServiceSupportRoleTemplate
--- Enter:
-Get-MgDirectoryRole
--- Enter:
-Get-MgUser | Format-List ID, DisplayName
--- Enter:
+-&#8594; copy id of Service Support Administrator&#8201;&#8212;&#8201;Enter:
+$ServiceSupportRoleTemplate = @{ RoleTemplateID = "f023fd81-a637-4b56-95fd-791ac0226033" }&#8201;&#8212;&#8201;Enter:
+New-MgDirectoryRole -BodyParameter $ServiceSupportRoleTemplate&#8201;&#8212;&#8201;Enter:
+Get-MgDirectoryRole&#8201;&#8212;&#8201;Enter:
+Get-MgUser | Format-List ID, DisplayName&#8201;&#8212;&#8201;Enter:
 Get-MgUser | ? DisplayName -like "Patti*"
---&gt; copy id of Patti
--- Enter:
-$UserObject = @{ "@odata.id" = "https://graph.microsoft.com/v1.0/directoryObjects/0385b13b-b84e-4475-a0c3-a60a1a13a08c" }
--- Enter:
+-&#8594; copy id of Patti&#8201;&#8212;&#8201;Enter:
+$UserObject = @{ "@odata.id" = "https://graph.microsoft.com/v1.0/directoryObjects/0385b13b-b84e-4475-a0c3-a60a1a13a08c" }&#8201;&#8212;&#8201;Enter:
 Get-MgDirectoryRole
---&gt; copy id of Service Support Administrator
--- Enter:
-New-MgDirectoryRoleMemberByRef -DirectoryRoleId '71c115d1-1126-425a-be5d-addaf6930d41' -BodyParameter $UserObject
--- Enter:
-Get-MgDirectoryRoleMember -DirectoryRoleId '71c115d1-1126-425a-be5d-addaf6930d41'
-
--4-
-
-
-
-
-
-
-
--- Active Users -&gt; select Joni Sherman -&gt; read: No administrator access -&gt; select Lynne Robbins -&gt; read: assigned the User Administrator role
-
-Select the key icon that appears to the right of Diego Siciliani's name -&gt; enter diego in the Password field -&gt; Enter Pa55w.rd in the Password field -&gt; automatically generate a password -&gt; Select Reset password.
-Try this Once as an NON Global Administrator and see this fail
-
-Alex is selected -&gt; select the ellipsis icon (...) -&gt; Edit sign-in status-&gt; Select the Block this user -&gt; select Save changes.
-Check that Alex can not log in
-
-
-
-
-
-
-3
-Data Classification, Trainable Classifiers, Sensitivity Labels, Retention Labels, Fingerprinting, Policy
-
-Goed erbij the hebben vwb Sensitivity Labels:
-https://learn.microsoft.com/en-us/training/modules/implement-sensitivity-labels-microsoft-365/2-plan-deployment-strategy-sensitivity-labels
-
-
-Go to: https://www.microsoft.com/en-us/download/confirmation.aspx?id=53018 -&gt; Azure Information Protection Unified Label client.
-
-in admin center -&gt; ... Show -&gt; Select Compliance -&gt; select Labels -&gt; Turn on now -&gt; +Create a label
--&gt; Fill Something -&gt; Select Next -&gt; select Next -&gt; select Both -&gt; select Next
+-&#8594; copy id of Service Support Administrator&#8201;&#8212;&#8201;Enter:
+New-MgDirectoryRoleMemberByRef -DirectoryRoleId '71c115d1-1126-425a-be5d-addaf6930d41' -BodyParameter $UserObject&#8201;&#8212;&#8201;Enter:
+Get-MgDirectoryRoleMember -DirectoryRoleId '71c115d1-1126-425a-be5d-addaf6930d41'</p>
+</div>
+<div class="paragraph">
+<p>-4-</p>
+</div>
+<div class="paragraph">
+<p>&#8201;&#8212;&#8201;Active Users &#8594; select Joni Sherman &#8594; read: No administrator access &#8594; select Lynne Robbins &#8594; read: assigned the User Administrator role</p>
+</div>
+<div class="paragraph">
+<p>Select the key icon that appears to the right of Diego Siciliani&#8217;s name &#8594; enter diego in the Password field &#8594; Enter Pa55w.rd in the Password field &#8594; automatically generate a password &#8594; Select Reset password.
+Try this Once as an NON Global Administrator and see this fail</p>
+</div>
+<div class="paragraph">
+<p>Alex is selected &#8594; select the ellipsis icon (&#8230;&#8203;) &#8594; Edit sign-in status&#8594; Select the Block this user &#8594; select Save changes.
+Check that Alex can not log in</p>
+</div>
+<div class="paragraph">
+<p>3
+Data Classification, Trainable Classifiers, Sensitivity Labels, Retention Labels, Fingerprinting, Policy</p>
+</div>
+<div class="paragraph">
+<p>Goed erbij the hebben vwb Sensitivity Labels:
+<a href="https://learn.microsoft.com/en-us/training/modules/implement-sensitivity-labels-microsoft-365/2-plan-deployment-strategy-sensitivity-labels" class="bare">https://learn.microsoft.com/en-us/training/modules/implement-sensitivity-labels-microsoft-365/2-plan-deployment-strategy-sensitivity-labels</a></p>
+</div>
+<div class="paragraph">
+<p>Go to: <a href="https://www.microsoft.com/en-us/download/confirmation.aspx?id=53018" class="bare">https://www.microsoft.com/en-us/download/confirmation.aspx?id=53018</a> &#8594; Azure Information Protection Unified Label client.</p>
+</div>
+<div class="paragraph">
+<p>in admin center &#8594; &#8230;&#8203; Show &#8594; Select Compliance &#8594; select Labels &#8594; Turn on now &#8594; +Create a label
+&#8594; Fill Something &#8594; Select Next &#8594; select Next &#8594; select Both &#8594; select Next
 On  Content marking page, set the Content marking toggle switch to On.
 Enter the three options and customize text
-Auto-labeling -&gt; toggle switch to On.
--&gt;
-Under Detect content -&gt; select +Add condition -&gt; select Content contains -&gt; Add drop-down arrow -&gt; select Sensitive info types -&gt; selects all the sensitive information types. Select Add -&gt; Scroll Down -&gt; select Automatically apply the Label-&gt; enter Sensitive content has been detected and will be encrypted -&gt; Select Next -&gt; select Nex -&gt; Select Next -&gt; select Create label.
-ERROR
-
-+Add condition and then select Content contains
+Auto-labeling &#8594; toggle switch to On.
+&#8594;
+Under Detect content &#8594; select +Add condition &#8594; select Content contains &#8594; Add drop-down arrow &#8594; select Sensitive info types &#8594; selects all the sensitive information types. Select Add &#8594; Scroll Down &#8594; select Automatically apply the Label&#8594; enter Sensitive content has been detected and will be encrypted &#8594; Select Next &#8594; select Nex &#8594; Select Next &#8594; select Create label.
+ERROR</p>
+</div>
+<div class="paragraph">
+<p>+Add condition and then select Content contains
 ABA routing number and the U.S. Social security Number (SSN) check boxe
-Create Label -&gt; Done
-
-select check box LABELX -&gt; Select the Publish label -&gt;  Next -&gt; Next -&gt; Select Next -&gt; select the Users must provide a justification to remove a label or lower -&gt; select Next -&gt; select LABELX in the drop-down -&gt; Next
--&gt; select PII in the drop-down -&gt; select Next.
--&gt; select PII in the drop-down -&gt; select Next.
--&gt; select PII in the drop-down -&gt; select Next.
-Name your policy page -&gt; select Submit -&gt; select Done.
-
-Task 3 – Assign a pre-existing sensitivity label to a document
-As outlined in the instructions at the start of this lab, it isn't possible to immediately test the sensitivity label and label policy that you created in the previous task. This is because it takes up to 24 hours for a new label policy to propagate through Microsoft 365 and for its label to become visible in applications like Microsoft Word and Outlook.
-
-Instead, you will test one of Microsoft 365's pre-existing sensitivity labels. For this lab, you will use the Project - Falcon sensitivity label, which is a Highly Confidential label. This label is similar to the label that you created in the prior task - the one exception being that it doesn't include a header or footer. Using this pre-existing label will give you a good idea as to how the label that you created would work at Adatum.
-
-On LON-CL1, in your Edge browser, you should still be logged into Microsoft 365 as Holly Dickson.
-
-To validate the Project-Falcon sensitivity label, you must first assign it to a document. Select the Home | Microsoft 365 tab in your browser to return to the Microsoft 365 home page. Select the Apps icon on the left-side of the screen. On the Apps page that appears, right-click on the Word tile and select Open in new tab.
-
-In the Word | Microsoft 365 tab, under the Create new section at the top of the page, select Blank document.
-
-If a Your privacy option window appears, select Close.
-
-If the Word ribbon displays icons for each feature but does not break the icons out by group, then select the down-arrow on the far right-side of the ribbon, and then under Ribbon layout, select Classic ribbon. This will switch the ribbon to the traditional ribbon style that is broken out by feature group (such as Undo, Clipboard, Font, Paragraph, Styles, and so forth).
-
-In the Word document, type the following text: Testing a sensitivity label on a document with personally identifiable information (PII); in this case, a U.S Social Security Number: 111-11-1111.
-
-Because you enabled Sensitivity labels at the start of this exercise, Word should display a Sensitivity group on the ribbon at the top of the page. Select the down arrow in the Sensitivity group. In the drop-down menu that appears, it should display the list of sensitivity label types. Select Highly Confidential, and then in the sub-menu that appears, select Project - Falcon.
-
-Note: After 24 hours, the label that you created in the prior task will appear in the Highly Confidential sub-manu, next to the Project-Falcon label. But for now, you will use the Project - Falcon label in its place.
-
-In the document, note how the label applied a CONFIDENTIAL - ProjectFalcon watermark across the top of the document. The Project - Falcon label was configured just like the label that you created, where the watermark was supposed to appear diagonally across the middle of the page. So why does it appear towards the top of the page? The answer is that you are using Word for the Web, which by default displays it as you see here. To see how it will appear to someone reading the document, you must view the document in the Reading View, which you'll do now.
-
-Select the View tab and then in the Word ribbon, select Reading View. Note how the watermark appears diagonally across the middle of the document. This is how the watermark will appear to someone reading the document. Note that if you use the Word desktop app, it displays the watermark as designated by the label, which in this case would be just as you see it here in the Reading View.
-
-To exit Reading View, select Edit Document on the menu bar at the top of the page. In the drop-down menu that appears, select Edit.
-
-In this first validation test, you're going to remove this sensitivity label from being applied to this document. One of the label policy options requires users to provide justification to remove a label or to select a lower classification label. You will now verify whether this setting is functioning properly.
-
-In the Sensitivity group in the Word ribbon, select the down arrow. In the drop-down menu that appears, note that a check mark appears next to Highly Confidential. Hold your mouse over Highly Confidential to display the sub-menu. Notice how a check mark appears next to Project - Falcon. The check marks identify the current label being applied to the document.
-
-To remove the label from this document, select the Project - Falcon label that appears in this drop-down menu.
-
-In the Justification Required window that appears, select the Other (explain) option. In the Explain why you're changing this label field, enter Testing what happens when a label is removed from a document and then select Change.
-
-Note how the watermark in the document has disappeared. In the Sensitivity group in the Word ribbon, select the down arrow. In the drop-down menu that appears, note that while Highly Confidential &gt; Project - Falcon is displayed, no check marks appear next to them. This indicates the sensitivity label is no longer being applied to this document.
-
-To re-apply the sensitivity label to the document, select Highly Confidential &gt; Project - Falcon in the drop-down menu. Note how the watermark reappears in the document.
-
-You will now save the document so that you can share it in the next task. A document name field that contains a drop-down arrow appears at the top-left corner of the page, to the right of the Word icon (Word may display Document or Document1 as the temporary file name). Select the drop-down arrow. In the drop-down menu that appears, confirm the file Location says Holly Dickson &gt; Documents.
-
-In the File Name field, rename the file to ProtectedDocument1 and then select outside of this file name menu (select inside the document). Note the new name assigned to the file appears in the title bar.
-
-Leave the ProtectedDocument1 tab open displaying the document. You will return to this document in the next task to share the document with Joni Sherman.
-
-You have just successfully created a Word document containing the Highly Confidential label policy titled Project - Falcon.
-
-Task 4 – Protect a document using Microsoft Entra ID Protection
-In the prior task, you created a Word document and protected it with the Project - Falcon sensitivity label. This label inserted a watermark in the document. In this task, you will share the document you created with Joni Sherman, and you will restrict Joni to "View only" permission. This will allow you to see how Microsoft Entra ID Protection protects the document based on the parameters that you configure.
-
-To verify whether the protection that you assigned to the document works, you will first email the document to two persons - to Joni Sherman and to your own personal email address. You will then verify that Joni can only view the document and not edit it, and you will verify that you can't access the document since it was not shared with you. Finally, you will change permission on the document so that Joni can edit it, and you will email this updated document to her for testing. The purpose of the two emails to Joni, one with a document link that provides read-only access and another with a document link that provides the ability to edit the document, is to see how Microsoft Entra ID Protection can provide various levels of document protection.
-
-On LON-CL1, in your Edge browser, you should still be logged into Microsoft 365 as Holly Dickson from the prior task with the Word tab open.
-
-In your Edge browser, select the Apps | Microsoft 365 tab.
-
-In the Apps page, right-click on the Outlook tile and select Open in new tab. This opens Holly's mailbox in Outlook on the web in a new browser tab.
-
-In Outlook on the Web, select New mail in the upper left part of the screen.
-
-In the right-hand pane, enter the following information in the email form:
-
-To: Enter Joni and then select Joni Sherman from the user list.
-
-CC: Enter your own personal email address (do NOT enter Holly's email address; instead, enter your own personal email address), and then select the Use this address: message that appears
-
-Add a subject: Protected Document Test - View only permission
-
-Body of the message: enter Open the protected document attached to this email and try to change it.
-
-In the body of the message, under the text you added in the previous step, you will attach a link to the document that you created in the prior task. However, to do so, you must first share the document with Joni Sherman, and when doing so, you will apply restricted View only permissions. To do so, you must leave this email and return to your document and share it with Joni. Once you copy the link that's created during the sharing process, you will return to this email and paste in the link.
-
-In your Edge browser, select the ProtectedDocument1 tab, which should still be displaying the document that you created in the prior task. At the top-right side of the page, below Holly Dickson's name and initials, select the Share button. In the drop-down menu that appears, select Share.
-
-In the Share "ProtectedDocument1" window that appears, select the gear (Link settings) icon that appears next to the Copy link button.
-
-On the Link settings window that appears, select the People you choose option.
-
-Under More settings, the current option is Can edit. You plan to share this document with Joni Sherman, but you only want Joni to be able to view the document. To make this permissions change, select Can edit. In the menu that appears, review the available options. You can see that Can edit has a check mark next to it, which indicates this is the current setting. To limit Joni to read-only permission, select Can view and then select Apply.
-
-This returns you to the Share "ProtectedDocument1" window. Enter Joni in the Add a name, group, or email Field. A list of users whose name starts with Joni should appear. Select Joni Sherman.
-
-On the Share "ProtectedDocument1" window, hover your mouse over the "eye" icon that appears to the right of Joni's name. Doing so should display Can view, which is the current setting that you assigned to her for this document. The "eye" icon is the designation for "Can view". Select the Copy link button.
-
-Once the Link copied message appears at the bottom of the Share "ProtectedDocument1" window, then select the X in the upper-right corner of the window to close it.
-
-In your Edge browser, select the Mail - Holly Dickson -Outlook tab to return back to your email message. In the body of the message, under the text you added earlier, paste (Ctrl+V) in the link to the shared document that you just copied to your clipboard. A link for the file named ProtectedDocument1.docx should appear.
-
-Select Send.
-
-A Recipients can't access links message should appear. This message is a result of Microsoft Entra ID Protection recognizing the fact that you included your personal email address in the email, which doesn't have permission to access the document. For the purpose of this lab test, select Send anyway.
-
-Switch to LON-CL2.
-
-On LON-CL2, you should be logged into Outlook on the Web as Lynne Robbins from the previous lab exercise. Sign out as Lynne.
-
-In your Edge browser, close all tabs except for the Sign out tab. In this tab, enter the following URL in the address bar: https://outlook.office365.com
-
-In the Pick an account window, select Use another account.
-
-In the Sign in window, enter JoniS@xxxxxZZZZZZ.onmicrosoft (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and then select Next.
-
-On the Enter password window, enter the same Administrative Password provided by your lab hosting provider for the tenant admin account (i.e. the MOD Administrator account) and then select Sign in.
-
-If a Welcome window appears, select the X to close it.
-
-In Joni’s Inbox in Outlook on the Web, you should see the email that Holly just sent whose Subject line indicates the document has View only permission. Open this email.
-
-In the email, select the attached file to open it.
-
-In the Your privacy option window that appears, select Close. The document opens in Word on the Web in a new browser tab titled ProtectedDocument1.docx tab. Note how the document appears in the Reading View in Word on the Web. This is Joni's indication that she has View only permission and can't edit the document. To verify this, try to select into the the document. Note the message that appears indicating: Read only. This document is read-only. Note the watermark specified in the Project - Falcon policy.
-
-Once you have finished reviewing the document, close the ProtectedDocument1.docx tab.
-
-You will now test what happens when you attempt to open the document that was sent to your personal email address. Use your mobile phone or classroom PC to access your personal mailbox. Open the email that Holly just sent to your personal email address, and then attempt to open the attached file.
-
-Since you don't have permission to access the document, a Pick an account window should appear. In a real-world scenario, you could optionally sign in with an account that has permission to access the file, or request access from the Holly@xxxxxZZZZZZ.onmicrosoft.com account.
-
-For the purpose of this test, you just verified that you can't access the file because it wasn't shared with you. You also verified that Joni was only able to view the file, but not edit it. You will now change the Share permissions on the file by allowing Joni to edit it. You will do so to see how this experience differs from the one you just completed.
-
-Switch to LON-CL1.
-
-On LON-CL1, in your Edge browser, you should still be logged into Microsoft 365 as Holly Dickson, and you should have tabs open for both Word and Outlook. Select the Mail - Holly Dickson - Outlook tab.
-
-In Holly's mailbox, create another email to Joni Sherman. Do NOT include your personal email address in the CC line. Enter the following information in the email form:
-
-To: Enter Joni and then select Joni Sherman from the user list.
-
-CC: leave blank
-
-Add a subject: Protected Document Test - Edit permission
-
-Body of the message: enter Open the protected document attached to this email and try to change it.
-
-Just as with the prior email, you must now share the document with Joni, but this time with Edit permission. To do so, perform the following steps:
-
-Select the ProtectedDocument1 tab in your browser and then on the right-side of the menu bar select the Share button. In the drop-down menu that appears, select Share.
+Create Label &#8594; Done</p>
+</div>
+<div class="paragraph">
+<p>select check box LABELX &#8594; Select the Publish label &#8594;  Next &#8594; Next &#8594; Select Next &#8594; select the Users must provide a justification to remove a label or lower &#8594; select Next &#8594; select LABELX in the drop-down &#8594; Next
+&#8594; select PII in the drop-down &#8594; select Next.
+&#8594; select PII in the drop-down &#8594; select Next.
+&#8594; select PII in the drop-down &#8594; select Next.
+Name your policy page &#8594; select Submit &#8594; select Done.</p>
+</div>
+<div class="paragraph">
+<p>Task 3 – Assign a pre-existing sensitivity label to a document
+As outlined in the instructions at the start of this lab, it isn&#8217;t possible to immediately test the sensitivity label and label policy that you created in the previous task. This is because it takes up to 24 hours for a new label policy to propagate through Microsoft 365 and for its label to become visible in applications like Microsoft Word and Outlook.</p>
+</div>
+<div class="paragraph">
+<p>Instead, you will test one of Microsoft 365&#8217;s pre-existing sensitivity labels. For this lab, you will use the Project - Falcon sensitivity label, which is a Highly Confidential label. This label is similar to the label that you created in the prior task - the one exception being that it doesn&#8217;t include a header or footer. Using this pre-existing label will give you a good idea as to how the label that you created would work at Adatum.</p>
+</div>
+<div class="paragraph">
+<p>On LON-CL1, in your Edge browser, you should still be logged into Microsoft 365 as Holly Dickson.</p>
+</div>
+<div class="paragraph">
+<p>To validate the Project-Falcon sensitivity label, you must first assign it to a document. Select the Home | Microsoft 365 tab in your browser to return to the Microsoft 365 home page. Select the Apps icon on the left-side of the screen. On the Apps page that appears, right-click on the Word tile and select Open in new tab.</p>
+</div>
+<div class="paragraph">
+<p>In the Word | Microsoft 365 tab, under the Create new section at the top of the page, select Blank document.</p>
+</div>
+<div class="paragraph">
+<p>If a Your privacy option window appears, select Close.</p>
+</div>
+<div class="paragraph">
+<p>If the Word ribbon displays icons for each feature but does not break the icons out by group, then select the down-arrow on the far right-side of the ribbon, and then under Ribbon layout, select Classic ribbon. This will switch the ribbon to the traditional ribbon style that is broken out by feature group (such as Undo, Clipboard, Font, Paragraph, Styles, and so forth).</p>
+</div>
+<div class="paragraph">
+<p>In the Word document, type the following text: Testing a sensitivity label on a document with personally identifiable information (PII); in this case, a U.S Social Security Number: 111-11-1111.</p>
+</div>
+<div class="paragraph">
+<p>Because you enabled Sensitivity labels at the start of this exercise, Word should display a Sensitivity group on the ribbon at the top of the page. Select the down arrow in the Sensitivity group. In the drop-down menu that appears, it should display the list of sensitivity label types. Select Highly Confidential, and then in the sub-menu that appears, select Project - Falcon.</p>
+</div>
+<div class="paragraph">
+<p>Note: After 24 hours, the label that you created in the prior task will appear in the Highly Confidential sub-manu, next to the Project-Falcon label. But for now, you will use the Project - Falcon label in its place.</p>
+</div>
+<div class="paragraph">
+<p>In the document, note how the label applied a CONFIDENTIAL - ProjectFalcon watermark across the top of the document. The Project - Falcon label was configured just like the label that you created, where the watermark was supposed to appear diagonally across the middle of the page. So why does it appear towards the top of the page? The answer is that you are using Word for the Web, which by default displays it as you see here. To see how it will appear to someone reading the document, you must view the document in the Reading View, which you&#8217;ll do now.</p>
+</div>
+<div class="paragraph">
+<p>Select the View tab and then in the Word ribbon, select Reading View. Note how the watermark appears diagonally across the middle of the document. This is how the watermark will appear to someone reading the document. Note that if you use the Word desktop app, it displays the watermark as designated by the label, which in this case would be just as you see it here in the Reading View.</p>
+</div>
+<div class="paragraph">
+<p>To exit Reading View, select Edit Document on the menu bar at the top of the page. In the drop-down menu that appears, select Edit.</p>
+</div>
+<div class="paragraph">
+<p>In this first validation test, you&#8217;re going to remove this sensitivity label from being applied to this document. One of the label policy options requires users to provide justification to remove a label or to select a lower classification label. You will now verify whether this setting is functioning properly.</p>
+</div>
+<div class="paragraph">
+<p>In the Sensitivity group in the Word ribbon, select the down arrow. In the drop-down menu that appears, note that a check mark appears next to Highly Confidential. Hold your mouse over Highly Confidential to display the sub-menu. Notice how a check mark appears next to Project - Falcon. The check marks identify the current label being applied to the document.</p>
+</div>
+<div class="paragraph">
+<p>To remove the label from this document, select the Project - Falcon label that appears in this drop-down menu.</p>
+</div>
+<div class="paragraph">
+<p>In the Justification Required window that appears, select the Other (explain) option. In the Explain why you&#8217;re changing this label field, enter Testing what happens when a label is removed from a document and then select Change.</p>
+</div>
+<div class="paragraph">
+<p>Note how the watermark in the document has disappeared. In the Sensitivity group in the Word ribbon, select the down arrow. In the drop-down menu that appears, note that while Highly Confidential &gt; Project - Falcon is displayed, no check marks appear next to them. This indicates the sensitivity label is no longer being applied to this document.</p>
+</div>
+<div class="paragraph">
+<p>To re-apply the sensitivity label to the document, select Highly Confidential &gt; Project - Falcon in the drop-down menu. Note how the watermark reappears in the document.</p>
+</div>
+<div class="paragraph">
+<p>You will now save the document so that you can share it in the next task. A document name field that contains a drop-down arrow appears at the top-left corner of the page, to the right of the Word icon (Word may display Document or Document1 as the temporary file name). Select the drop-down arrow. In the drop-down menu that appears, confirm the file Location says Holly Dickson &gt; Documents.</p>
+</div>
+<div class="paragraph">
+<p>In the File Name field, rename the file to ProtectedDocument1 and then select outside of this file name menu (select inside the document). Note the new name assigned to the file appears in the title bar.</p>
+</div>
+<div class="paragraph">
+<p>Leave the ProtectedDocument1 tab open displaying the document. You will return to this document in the next task to share the document with Joni Sherman.</p>
+</div>
+<div class="paragraph">
+<p>You have just successfully created a Word document containing the Highly Confidential label policy titled Project - Falcon.</p>
+</div>
+<div class="paragraph">
+<p>Task 4 – Protect a document using Microsoft Entra ID Protection
+In the prior task, you created a Word document and protected it with the Project - Falcon sensitivity label. This label inserted a watermark in the document. In this task, you will share the document you created with Joni Sherman, and you will restrict Joni to "View only" permission. This will allow you to see how Microsoft Entra ID Protection protects the document based on the parameters that you configure.</p>
+</div>
+<div class="paragraph">
+<p>To verify whether the protection that you assigned to the document works, you will first email the document to two persons - to Joni Sherman and to your own personal email address. You will then verify that Joni can only view the document and not edit it, and you will verify that you can&#8217;t access the document since it was not shared with you. Finally, you will change permission on the document so that Joni can edit it, and you will email this updated document to her for testing. The purpose of the two emails to Joni, one with a document link that provides read-only access and another with a document link that provides the ability to edit the document, is to see how Microsoft Entra ID Protection can provide various levels of document protection.</p>
+</div>
+<div class="paragraph">
+<p>On LON-CL1, in your Edge browser, you should still be logged into Microsoft 365 as Holly Dickson from the prior task with the Word tab open.</p>
+</div>
+<div class="paragraph">
+<p>In your Edge browser, select the Apps | Microsoft 365 tab.</p>
+</div>
+<div class="paragraph">
+<p>In the Apps page, right-click on the Outlook tile and select Open in new tab. This opens Holly&#8217;s mailbox in Outlook on the web in a new browser tab.</p>
+</div>
+<div class="paragraph">
+<p>In Outlook on the Web, select New mail in the upper left part of the screen.</p>
+</div>
+<div class="paragraph">
+<p>In the right-hand pane, enter the following information in the email form:</p>
+</div>
+<div class="paragraph">
+<p>To: Enter Joni and then select Joni Sherman from the user list.</p>
+</div>
+<div class="paragraph">
+<p>CC: Enter your own personal email address (do NOT enter Holly&#8217;s email address; instead, enter your own personal email address), and then select the Use this address: message that appears</p>
+</div>
+<div class="paragraph">
+<p>Add a subject: Protected Document Test - View only permission</p>
+</div>
+<div class="paragraph">
+<p>Body of the message: enter Open the protected document attached to this email and try to change it.</p>
+</div>
+<div class="paragraph">
+<p>In the body of the message, under the text you added in the previous step, you will attach a link to the document that you created in the prior task. However, to do so, you must first share the document with Joni Sherman, and when doing so, you will apply restricted View only permissions. To do so, you must leave this email and return to your document and share it with Joni. Once you copy the link that&#8217;s created during the sharing process, you will return to this email and paste in the link.</p>
+</div>
+<div class="paragraph">
+<p>In your Edge browser, select the ProtectedDocument1 tab, which should still be displaying the document that you created in the prior task. At the top-right side of the page, below Holly Dickson&#8217;s name and initials, select the Share button. In the drop-down menu that appears, select Share.</p>
+</div>
+<div class="paragraph">
+<p>In the Share "ProtectedDocument1" window that appears, select the gear (Link settings) icon that appears next to the Copy link button.</p>
+</div>
+<div class="paragraph">
+<p>On the Link settings window that appears, select the People you choose option.</p>
+</div>
+<div class="paragraph">
+<p>Under More settings, the current option is Can edit. You plan to share this document with Joni Sherman, but you only want Joni to be able to view the document. To make this permissions change, select Can edit. In the menu that appears, review the available options. You can see that Can edit has a check mark next to it, which indicates this is the current setting. To limit Joni to read-only permission, select Can view and then select Apply.</p>
+</div>
+<div class="paragraph">
+<p>This returns you to the Share "ProtectedDocument1" window. Enter Joni in the Add a name, group, or email Field. A list of users whose name starts with Joni should appear. Select Joni Sherman.</p>
+</div>
+<div class="paragraph">
+<p>On the Share "ProtectedDocument1" window, hover your mouse over the "eye" icon that appears to the right of Joni&#8217;s name. Doing so should display Can view, which is the current setting that you assigned to her for this document. The "eye" icon is the designation for "Can view". Select the Copy link button.</p>
+</div>
+<div class="paragraph">
+<p>Once the Link copied message appears at the bottom of the Share "ProtectedDocument1" window, then select the X in the upper-right corner of the window to close it.</p>
+</div>
+<div class="paragraph">
+<p>In your Edge browser, select the Mail - Holly Dickson -Outlook tab to return back to your email message. In the body of the message, under the text you added earlier, paste (Ctrl+V) in the link to the shared document that you just copied to your clipboard. A link for the file named ProtectedDocument1.docx should appear.</p>
+</div>
+<div class="paragraph">
+<p>Select Send.</p>
+</div>
+<div class="paragraph">
+<p>A Recipients can&#8217;t access links message should appear. This message is a result of Microsoft Entra ID Protection recognizing the fact that you included your personal email address in the email, which doesn&#8217;t have permission to access the document. For the purpose of this lab test, select Send anyway.</p>
+</div>
+<div class="paragraph">
+<p>Switch to LON-CL2.</p>
+</div>
+<div class="paragraph">
+<p>On LON-CL2, you should be logged into Outlook on the Web as Lynne Robbins from the previous lab exercise. Sign out as Lynne.</p>
+</div>
+<div class="paragraph">
+<p>In your Edge browser, close all tabs except for the Sign out tab. In this tab, enter the following URL in the address bar: <a href="https://outlook.office365.com" class="bare">https://outlook.office365.com</a></p>
+</div>
+<div class="paragraph">
+<p>In the Pick an account window, select Use another account.</p>
+</div>
+<div class="paragraph">
+<p>In the Sign in window, enter JoniS@xxxxxZZZZZZ.onmicrosoft (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and then select Next.</p>
+</div>
+<div class="paragraph">
+<p>On the Enter password window, enter the same Administrative Password provided by your lab hosting provider for the tenant admin account (i.e. the MOD Administrator account) and then select Sign in.</p>
+</div>
+<div class="paragraph">
+<p>If a Welcome window appears, select the X to close it.</p>
+</div>
+<div class="paragraph">
+<p>In Joni’s Inbox in Outlook on the Web, you should see the email that Holly just sent whose Subject line indicates the document has View only permission. Open this email.</p>
+</div>
+<div class="paragraph">
+<p>In the email, select the attached file to open it.</p>
+</div>
+<div class="paragraph">
+<p>In the Your privacy option window that appears, select Close. The document opens in Word on the Web in a new browser tab titled ProtectedDocument1.docx tab. Note how the document appears in the Reading View in Word on the Web. This is Joni&#8217;s indication that she has View only permission and can&#8217;t edit the document. To verify this, try to select into the the document. Note the message that appears indicating: Read only. This document is read-only. Note the watermark specified in the Project - Falcon policy.</p>
+</div>
+<div class="paragraph">
+<p>Once you have finished reviewing the document, close the ProtectedDocument1.docx tab.</p>
+</div>
+<div class="paragraph">
+<p>You will now test what happens when you attempt to open the document that was sent to your personal email address. Use your mobile phone or classroom PC to access your personal mailbox. Open the email that Holly just sent to your personal email address, and then attempt to open the attached file.</p>
+</div>
+<div class="paragraph">
+<p>Since you don&#8217;t have permission to access the document, a Pick an account window should appear. In a real-world scenario, you could optionally sign in with an account that has permission to access the file, or request access from the <a href="mailto:Holly@xxxxxZZZZZZ.onmicrosoft.com">Holly@xxxxxZZZZZZ.onmicrosoft.com</a> account.</p>
+</div>
+<div class="paragraph">
+<p>For the purpose of this test, you just verified that you can&#8217;t access the file because it wasn&#8217;t shared with you. You also verified that Joni was only able to view the file, but not edit it. You will now change the Share permissions on the file by allowing Joni to edit it. You will do so to see how this experience differs from the one you just completed.</p>
+</div>
+<div class="paragraph">
+<p>Switch to LON-CL1.</p>
+</div>
+<div class="paragraph">
+<p>On LON-CL1, in your Edge browser, you should still be logged into Microsoft 365 as Holly Dickson, and you should have tabs open for both Word and Outlook. Select the Mail - Holly Dickson - Outlook tab.</p>
+</div>
+<div class="paragraph">
+<p>In Holly&#8217;s mailbox, create another email to Joni Sherman. Do NOT include your personal email address in the CC line. Enter the following information in the email form:</p>
+</div>
+<div class="paragraph">
+<p>To: Enter Joni and then select Joni Sherman from the user list.</p>
+</div>
+<div class="paragraph">
+<p>CC: leave blank</p>
+</div>
+<div class="paragraph">
+<p>Add a subject: Protected Document Test - Edit permission</p>
+</div>
+<div class="paragraph">
+<p>Body of the message: enter Open the protected document attached to this email and try to change it.</p>
+</div>
+<div class="paragraph">
+<p>Just as with the prior email, you must now share the document with Joni, but this time with Edit permission. To do so, perform the following steps:</p>
+</div>
+<div class="paragraph">
+<p>Select the ProtectedDocument1 tab in your browser and then on the right-side of the menu bar select the Share button. In the drop-down menu that appears, select Share.
 In the Share "ProtectedDocument1" window, enter Joni in the Add a name, group, or email field and then select Joni Sherman.
-To the right of Joni's name is a pencil (Can edit) icon. This is the default permission when sharing a document. Select the Copy link button to see what happens.
-Note the Link copied message that appears. The message indicates that anyone can edit the document, even though you specifed Joni's name. This isn't what you want, which is to limit Joni as the only person who can edit it. To put that restriction in place, select the gear (Link settings) icon next to the Copy link button.
+To the right of Joni&#8217;s name is a pencil (Can edit) icon. This is the default permission when sharing a document. Select the Copy link button to see what happens.
+Note the Link copied message that appears. The message indicates that anyone can edit the document, even though you specifed Joni&#8217;s name. This isn&#8217;t what you want, which is to limit Joni as the only person who can edit it. To put that restriction in place, select the gear (Link settings) icon next to the Copy link button.
 On the Link settings window that appears, select the People you choose option. This option is the key to limiting the permission to selected users.
 Under More settings, if Can edit appears, then select Apply. However, if Can view appears, then select Can view, and in the menu that appears, select Can edit and then select Apply.
 In the Share "ProtectedDocument1" window, select the Copy link button.
-Note the Link copied message that appears. This time the message indicates that only the people that you specify can edit the document. In this case, editing will be limited to Joni, since she's the only person that you specified.
+Note the Link copied message that appears. This time the message indicates that only the people that you specify can edit the document. In this case, editing will be limited to Joni, since she&#8217;s the only person that you specified.
 Select the Mail - Holly Dickson - Outlook tab in your browser and then paste the link into the body of the email message.
-Select Send.
-
-Switch to LON-CL2.
-
-On LON-CL2, you should still be logged into Outlook on the Web as Joni Sherman. In Joni’s Inbox, you should see the email that Holly just sent whose Subject line indicates the document has Edit permission. Open this email.
-
-In the email, select the attached file to open it.
-
-When Joni had View only permission, the document opened in the Reading View pane. As such, Joni couldn't edit the document. This version of the document provides Joni with Edit permission, so this time the document should open in Word in normal edit mode. Verify that you can enter text in the document.
-
-Note: In this task, you just verified that Microsoft Entra ID Protection protected the document based on the PII policy parameters that you configured. When Joni was assigned View only permission, the document opened in the Reading view and she was unable to change it. When Joni was assigned Edit permission, the document opened in Word and she was able to change it. And since Holly didn't share the document with you, you couldn't open it when she sent the document in an email to your personal mailbox.
-
-Congratulations! You have just completed the final lab in this course.</pre>
+Select Send.</p>
 </div>
+<div class="paragraph">
+<p>Switch to LON-CL2.</p>
+</div>
+<div class="paragraph">
+<p>On LON-CL2, you should still be logged into Outlook on the Web as Joni Sherman. In Joni’s Inbox, you should see the email that Holly just sent whose Subject line indicates the document has Edit permission. Open this email.</p>
+</div>
+<div class="paragraph">
+<p>In the email, select the attached file to open it.</p>
+</div>
+<div class="paragraph">
+<p>When Joni had View only permission, the document opened in the Reading View pane. As such, Joni couldn&#8217;t edit the document. This version of the document provides Joni with Edit permission, so this time the document should open in Word in normal edit mode. Verify that you can enter text in the document.</p>
+</div>
+<div class="paragraph">
+<p>Note: In this task, you just verified that Microsoft Entra ID Protection protected the document based on the PII policy parameters that you configured. When Joni was assigned View only permission, the document opened in the Reading view and she was unable to change it. When Joni was assigned Edit permission, the document opened in Word and she was able to change it. And since Holly didn&#8217;t share the document with you, you couldn&#8217;t open it when she sent the document in an email to your personal mailbox.</p>
+</div>
+<div class="paragraph">
+<p>Congratulations! You have just completed the final lab in this course.</p>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-05-05 23:02:54 +0200
+Last updated 2024-05-05 23:05:15 +0200
 </div>
 </div>
 </body>

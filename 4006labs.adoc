@@ -28,80 +28,80 @@ Pa66w.rd42
 
 -1- Login +
 -2- Wijzig Organisation Information +
--- inloggen portal.office.com -> admin icoontje -> Show all -> Settings -> OrgSettings -> Organization information
--3- Custom Theme Aanmaken
--- Teams & Groups -> Active Teams & Groups -> + Add a Team (TEAMX) -> Finish
--- Show all -> Settings -> Org Settings -> Organisation Profile -> Custom Themes -> + Add Theme
--4- Install Graph
---Enter:
-Install-Module Microsoft.Graph -Scope CurrentUser
---Enter:
-Get-InstalledModule Microsoft.Graph.* | select *name*
---Enter (if not installed):
-Install-Module -Name Microsoft.Graph.Identity.DirectoryManagement
---Enter:
-Set-ExecutionPolicy unrestricted
+-- inloggen portal.office.com -> admin icoontje -> Show all -> Settings -> OrgSettings -> Organization information +
+-3- Custom Theme Aanmaken +
+-- Teams & Groups -> Active Teams & Groups -> + Add a Team (TEAMX) -> Finish +
+-- Show all -> Settings -> Org Settings -> Organisation Profile -> Custom Themes -> + Add Theme +
+-4- Install Graph +
+--Enter: +
+Install-Module Microsoft.Graph -Scope CurrentUser +
+--Enter: +
+Get-InstalledModule Microsoft.Graph.* | select *name* +
+--Enter (if not installed): +
+Install-Module -Name Microsoft.Graph.Identity.DirectoryManagement +
+--Enter: +
+Set-ExecutionPolicy unrestricted +
 
 
 
 2
-Entra, SSO, MFA, Bann bad passwords, Conditional Access, Entra Passthrough Authentication, Passwordless SignIn,
-Microsoft Authenticator, Smart Lockout Policies ()
--
-Permissions, Roles, Privileged Identity Management
+Entra, SSO, MFA, Bann bad passwords, Conditional Access, Entra Passthrough Authentication, Passwordless SignIn, +
+Microsoft Authenticator, Smart Lockout Policies () +
+- +
+Permissions, Roles, Privileged Identity Management +
 
-LAB 2
--1- Assign License
--- Billing -> Licenses -> (Check no license available) -> 
--- Users -> Active Users -> click on Christie Cline -> Licenses and apps tab -> clear checkbox -> Save
--- Users -> Active Users -> + Add a user (USERX) -> assign License -> Roles: Admin center access -> Global administrator -> Finish
--2- Setup Account
--- Ga in LON01 naar portal.office.com -> sign out -> sign in as USERX -> go to Admin Center 
--- Teams & Groups -> Active Teams & Groups -> Select Your TEAMX -> Membership -> Members -> + Add Members -> USERX -> Refresh
--- Check Theme changements -> User -> Active Users -> Hover over name click Key(reset password)
-XXXXXXNOG EEN KEER DOEN
--3- Deploy MFA Conditional Access
--- Under Admin Centers select Identity -> Protection -> Conditional Access -> Policies -> + New Policy -> Fill Name 
--- Check 0 users and groups selected -> Select Exclude -> Users and Groups -> Groups -> Select TEAMX 
--- Targer resources -> No target selected -> Include (do nothing) -> Select apps (radiobutton) -> Check it -> Include -> 
--- Select All cloud apps
--- Conditions -> 0 conditions selected -> Locations -> Not Configured -> Configure Toggle to Yes -> Exclude -> Selected Locations -> Select -> Verify None -> Access Controls -> Grant -> 0 controls selected -> Grant pane -> Grant Acess -> Require multifactor authentication -> Select -> Enable Policy to On -> Create
-XXXXXXXXXXX
--4-
--- Sign Out -> Zoek wachtwoord user op -> login met MFA
--- Lid van de andere groep heeft nergens last van
--5-
--- Server Manager -> Tools ->select Group Policy Management -> expand Domains -> expand Adatum.com -> right-click on Default 
--- Domain Policy -> select Edit -> under Computer Configuration -> expand Policies -> expand Windows Settings -> 
--- expand Security Settings -> expand Account Policies -> select Account Lockout Policy
-----
--- Login -> select Admin -> select Identity -> select Protection -> select Authentication methods -> select Password protection
--- Fill out Lockout threshold: 3 -> Lockout duration in seconds: 90 -> Enforce custom list: select Yes
--- Custom banned password list: (kies woorden per regel) -> Mode select Enforced -> Save
--- User-Icoontje rechtsboven -> View Account -> Change Password -> check de regels
-
-
-
--- Lab 3
--- logged in -> select Users -> Active Users -> select Diego Siciliani -> select Manage roles -> select the Admin center access option 
--- Show all by category -> Other - select Billing Administrator check box -> Save -> select the X 
+LAB 2 +
+-1- Assign License +
+-- Billing -> Licenses -> (Check no license available) ->  +
+-- Users -> Active Users -> click on Christie Cline -> Licenses and apps tab -> clear checkbox -> Save +
+-- Users -> Active Users -> + Add a user (USERX) -> assign License -> Roles: Admin center access -> Global administrator -> Finish +
+-2- Setup Account +
+-- Ga in LON01 naar portal.office.com -> sign out -> sign in as USERX -> go to Admin Center  +
+-- Teams & Groups -> Active Teams & Groups -> Select Your TEAMX -> Membership -> Members -> + Add Members -> USERX -> Refresh +
+-- Check Theme changements -> User -> Active Users -> Hover over name click Key(reset password) +
+XXXXXXNOG EEN KEER DOEN +
+-3- Deploy MFA Conditional Access +
+-- Under Admin Centers select Identity -> Protection -> Conditional Access -> Policies -> + New Policy -> Fill Name  +
+-- Check 0 users and groups selected -> Select Exclude -> Users and Groups -> Groups -> Select TEAMX  +
+-- Targer resources -> No target selected -> Include (do nothing) -> Select apps (radiobutton) -> Check it -> Include ->  +
+-- Select All cloud apps +
+-- Conditions -> 0 conditions selected -> Locations -> Not Configured -> Configure Toggle to Yes -> Exclude -> Selected Locations -> Select -> Verify None -> Access Controls -> Grant -> 0 controls selected -> Grant pane -> Grant Acess -> Require multifactor authentication -> Select -> Enable Policy to On -> Create +
+XXXXXXXXXXX +
+-4- +
+-- Sign Out -> Zoek wachtwoord user op -> login met MFA +
+-- Lid van de andere groep heeft nergens last van +
+-5- +
+-- Server Manager -> Tools ->select Group Policy Management -> expand Domains -> expand Adatum.com -> right-click on Default  +
+-- Domain Policy -> select Edit -> under Computer Configuration -> expand Policies -> expand Windows Settings ->  +
+-- expand Security Settings -> expand Account Policies -> select Account Lockout Policy +
+---- +
+-- Login -> select Admin -> select Identity -> select Protection -> select Authentication methods -> select Password protection +
+-- Fill out Lockout threshold: 3 -> Lockout duration in seconds: 90 -> Enforce custom list: select Yes +
+-- Custom banned password list: (kies woorden per regel) -> Mode select Enforced -> Save +
+-- User-Icoontje rechtsboven -> View Account -> Change Password -> check de regels +
 
 
--> Teams & groups -> Active teams & groups -> Security groups tab -> +Add a security group -> enter User management role group -> Select Next -> select Azure AD roles can be assigned -> Next -> Create group -> Close.
--> USERGROUPX to open its details pane -> select Manage roles -> Admin center access option -> User Administrator and User Experience Success Manager check boxes -> Show all by category -> Identity category -> Helpdesk Administrator -> Save changes.
 
--> X -> Security groups tab, select USERGROUPX -> three roles appear -> Close this pane.
--> select Active users -> select Lynne Robbins -> select Manage groups -> +Assign memberships select USERGROUPX -> Add(1)
--> see the three User management roles -> Back -> select Manage roles -> see Roles
+-- Lab 3 +
+-- logged in -> select Users -> Active Users -> select Diego Siciliani -> select Manage roles -> select the Admin center access option  +
+-- Show all by category -> Other - select Billing Administrator check box -> Save -> select the X  +
 
 
+-> Teams & groups -> Active teams & groups -> Security groups tab -> +Add a security group -> enter User management role group -> Select Next -> select Azure AD roles can be assigned -> Next -> Create group -> Close. +
+-> USERGROUPX to open its details pane -> select Manage roles -> Admin center access option -> User Administrator and User Experience Success Manager check boxes -> Show all by category -> Identity category -> Helpdesk Administrator -> Save changes. +
+
+-> X -> Security groups tab, select USERGROUPX -> three roles appear -> Close this pane. +
+-> select Active users -> select Lynne Robbins -> select Manage groups -> +Assign memberships select USERGROUPX -> Add(1) +
+-> see the three User management roles -> Back -> select Manage roles -> see Roles +
 
 
 
 
--- Enter:
-Import-Module Microsoft.Graph.Users
--- Enter:
+
+
+-- Enter: +
+Import-Module Microsoft.Graph.Users +
+-- Enter: +
 Connect-MgGraph -Scopes 'User.ReadWrite.All', 'RoleManagement.ReadWrite.Directory'
 --> select the Consent on behalf of your organization check box
 -- Enter:
