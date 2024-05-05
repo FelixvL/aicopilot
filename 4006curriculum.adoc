@@ -40,7 +40,7 @@ Copilot in office portal /GraphBased chat
 * Entra Privileged Identity Management (PIM)
 * SharePoint access Reviews
 * Graph Connectors en Plugins
-- - - 
+*
 * Center Of Excellence
 - - -
 * Entra
