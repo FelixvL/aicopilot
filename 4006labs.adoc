@@ -111,26 +111,26 @@ Get-MgDirectoryRoleTemplate | Format-List Id, DisplayName +
 *Enter:* +
 Get-MgDirectoryRoleTemplate | ? DisplayName -eq "Service Support Administrator" +
 --> copy id of Service Support Administrator +
--- Enter: +
+*Enter:* +
 $ServiceSupportRoleTemplate = @{ RoleTemplateID = "f023fd81-a637-4b56-95fd-791ac0226033" } +
--- Enter: +
+*Enter:* +
 New-MgDirectoryRole -BodyParameter $ServiceSupportRoleTemplate +
--- Enter:
-Get-MgDirectoryRole
--- Enter:
-Get-MgUser | Format-List ID, DisplayName
--- Enter:
-Get-MgUser | ? DisplayName -like "Patti*"
---> copy id of Patti
--- Enter:
-$UserObject = @{ "@odata.id" = "https://graph.microsoft.com/v1.0/directoryObjects/0385b13b-b84e-4475-a0c3-a60a1a13a08c" }
--- Enter:
-Get-MgDirectoryRole
---> copy id of Service Support Administrator
--- Enter:
-New-MgDirectoryRoleMemberByRef -DirectoryRoleId '71c115d1-1126-425a-be5d-addaf6930d41' -BodyParameter $UserObject
--- Enter:
-Get-MgDirectoryRoleMember -DirectoryRoleId '71c115d1-1126-425a-be5d-addaf6930d41' 
+*Enter:* +
+Get-MgDirectoryRole +
+*Enter:* +
+Get-MgUser | Format-List ID, DisplayName +
+*Enter:* +
+Get-MgUser | ? DisplayName -like "Patti*" +
+--> copy id of Patti +
+*Enter:* +
+$UserObject = @{ "@odata.id" = "https://graph.microsoft.com/v1.0/directoryObjects/0385b13b-b84e-4475-a0c3-a60a1a13a08c" } +
+*Enter:* +
+Get-MgDirectoryRole +
+--> copy id of Service Support Administrator +
+*Enter:* +
+New-MgDirectoryRoleMemberByRef -DirectoryRoleId '71c115d1-1126-425a-be5d-addaf6930d41' -BodyParameter $UserObject +
+*Enter:* +
+Get-MgDirectoryRoleMember -DirectoryRoleId '71c115d1-1126-425a-be5d-addaf6930d41'  +
 
 -4-
 

@@ -525,18 +525,27 @@ Get-MgDirectoryRole<br>
 Get-MgDirectoryRoleTemplate | Format-List Id, DisplayName<br>
 <strong>Enter:</strong><br>
 Get-MgDirectoryRoleTemplate | ? DisplayName -eq "Service Support Administrator"<br>
--&#8594; copy id of Service Support Administrator +&#8201;&#8212;&#8201;Enter:<br>
-$ServiceSupportRoleTemplate = @{ RoleTemplateID = "f023fd81-a637-4b56-95fd-791ac0226033" } +&#8201;&#8212;&#8201;Enter:<br>
-New-MgDirectoryRole -BodyParameter $ServiceSupportRoleTemplate +&#8201;&#8212;&#8201;Enter:
-Get-MgDirectoryRole&#8201;&#8212;&#8201;Enter:
-Get-MgUser | Format-List ID, DisplayName&#8201;&#8212;&#8201;Enter:
-Get-MgUser | ? DisplayName -like "Patti*"
--&#8594; copy id of Patti&#8201;&#8212;&#8201;Enter:
-$UserObject = @{ "@odata.id" = "https://graph.microsoft.com/v1.0/directoryObjects/0385b13b-b84e-4475-a0c3-a60a1a13a08c" }&#8201;&#8212;&#8201;Enter:
-Get-MgDirectoryRole
--&#8594; copy id of Service Support Administrator&#8201;&#8212;&#8201;Enter:
-New-MgDirectoryRoleMemberByRef -DirectoryRoleId '71c115d1-1126-425a-be5d-addaf6930d41' -BodyParameter $UserObject&#8201;&#8212;&#8201;Enter:
-Get-MgDirectoryRoleMember -DirectoryRoleId '71c115d1-1126-425a-be5d-addaf6930d41'</p>
+-&#8594; copy id of Service Support Administrator<br>
+<strong>Enter:</strong><br>
+$ServiceSupportRoleTemplate = @{ RoleTemplateID = "f023fd81-a637-4b56-95fd-791ac0226033" }<br>
+<strong>Enter:</strong><br>
+New-MgDirectoryRole -BodyParameter $ServiceSupportRoleTemplate<br>
+<strong>Enter:</strong><br>
+Get-MgDirectoryRole<br>
+<strong>Enter:</strong><br>
+Get-MgUser | Format-List ID, DisplayName<br>
+<strong>Enter:</strong><br>
+Get-MgUser | ? DisplayName -like "Patti*"<br>
+-&#8594; copy id of Patti<br>
+<strong>Enter:</strong><br>
+$UserObject = @{ "@odata.id" = "https://graph.microsoft.com/v1.0/directoryObjects/0385b13b-b84e-4475-a0c3-a60a1a13a08c" }<br>
+<strong>Enter:</strong><br>
+Get-MgDirectoryRole<br>
+-&#8594; copy id of Service Support Administrator<br>
+<strong>Enter:</strong><br>
+New-MgDirectoryRoleMemberByRef -DirectoryRoleId '71c115d1-1126-425a-be5d-addaf6930d41' -BodyParameter $UserObject<br>
+<strong>Enter:</strong><br>
+Get-MgDirectoryRoleMember -DirectoryRoleId '71c115d1-1126-425a-be5d-addaf6930d41' <br></p>
 </div>
 <div class="paragraph">
 <p>-4-</p>
@@ -821,7 +830,7 @@ Select Send.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-05-05 23:07:36 +0200
+Last updated 2024-05-05 23:09:32 +0200
 </div>
 </div>
 </body>
