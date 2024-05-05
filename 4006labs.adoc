@@ -27,7 +27,7 @@ Pa55w.rd23 +
 Pa66w.rd42
 
 -1- Login +
--2- Wijzig Organisation Information
+-2- Wijzig Organisation Information +
 -- inloggen portal.office.com -> admin icoontje -> Show all -> Settings -> OrgSettings -> Organization information
 -3- Custom Theme Aanmaken
 -- Teams & Groups -> Active Teams & Groups -> + Add a Team (TEAMX) -> Finish
