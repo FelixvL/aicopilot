@@ -9,11 +9,11 @@ https://github.com/MicrosoftLearning/MS-4006-Copilot-for-Microsoft-365-for-Admin
 PowerPoint - Introduction +
 3 LearningPaths +
 1
-https://learn.microsoft.com/en-us/training/paths/prepare-your-organization-microsoft-365-copilot/
+https://learn.microsoft.com/en-us/training/paths/prepare-your-organization-microsoft-365-copilot/ +
 2
-https://learn.microsoft.com/en-us/training/paths/manage-data-security-copilot-microsoft-365/
+https://learn.microsoft.com/en-us/training/paths/manage-data-security-copilot-microsoft-365/ +
 3
-https://learn.microsoft.com/en-us/training/paths/manage-data-compliance-copilot-microsoft-365/
+https://learn.microsoft.com/en-us/training/paths/manage-data-compliance-copilot-microsoft-365/ +
 
 1
 Graph, Sociale Zaken in organisatie, Connectors, NLP, LLM, Prepare Data, Secure Data, initiate staff, Compliance,
