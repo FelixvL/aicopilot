@@ -1,2 +1,2 @@
-link:4006curriculum.html[Programma AI Copilot 4006 + (4004 en 4005)]
+link:4006curriculum.html[Programma AI Copilot 4006 + (4004 en 4005)] +
 link:4006labs.html[Labs AI Copilot 4006]
