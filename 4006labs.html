@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.22">
-<title>1 Assign License</title>
+<title>LAB1</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -460,21 +460,36 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 Graph, Sociale Zaken in organisatie, Connectors, NLP, LLM, Prepare Data, Secure Data, initiate staff, Compliance,
 Propriety Data, Isolation and Access Control</p>
 </div>
+<div class="sect3">
+<h4 id="_lab1">LAB1</h4>
 <div class="paragraph">
-<p>LAB1
-<a href="https://labs3.virsoft.net/the-academy/ms-102/html5?user=150" class="bare">https://labs3.virsoft.net/the-academy/ms-102/html5?user=150</a></p>
+<p><a href="https://labs3.virsoft.net/the-academy/ms-102/html5?user=150" class="bare">https://labs3.virsoft.net/the-academy/ms-102/html5?user=150</a></p>
 </div>
 <div class="paragraph">
 <p><a href="mailto:admin@WWLx787064.onmicrosoft.com">admin@WWLx787064.onmicrosoft.com</a><br>
 Pa55w.rd23<br>
 Pa66w.rd42</p>
 </div>
+<div class="sect4">
+<h5 id="_1_login">1- Login<br></h5>
+
+</div>
+<div class="sect4">
+<h5 id="_2_wijzig_organisation_information">2- Wijzig Organisation Information<br></h5>
 <div class="paragraph">
-<p>-1- Login<br>
--2- Wijzig Organisation Information +&#8201;&#8212;&#8201;inloggen portal.office.com &#8594; admin icoontje &#8594; Show all &#8594; Settings &#8594; OrgSettings &#8594; Organization information<br>
--3- Custom Theme Aanmaken +&#8201;&#8212;&#8201;Teams &amp; Groups &#8594; Active Teams &amp; Groups &#8594; + Add a Team (TEAMX) &#8594; Finish +&#8201;&#8212;&#8201;Show all &#8594; Settings &#8594; Org Settings &#8594; Organisation Profile &#8594; Custom Themes &#8594; + Add Theme<br>
--4- Install Graph<br>
-<strong>Enter:</strong><br>
+<p>&#8201;&#8212;&#8201;inloggen portal.office.com &#8594; admin icoontje &#8594; Show all &#8594; Settings &#8594; OrgSettings &#8594; Organization information<br></p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_3_custom_theme_aanmaken">3- Custom Theme Aanmaken<br></h5>
+<div class="paragraph">
+<p>&#8201;&#8212;&#8201;Teams &amp; Groups &#8594; Active Teams &amp; Groups &#8594; + Add a Team (TEAMX) &#8594; Finish +&#8201;&#8212;&#8201;Show all &#8594; Settings &#8594; Org Settings &#8594; Organisation Profile &#8594; Custom Themes &#8594; + Add Theme<br></p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_4_install_graph">4- Install Graph<br></h5>
+<div class="paragraph">
+<p><strong>Enter:</strong><br>
 Install-Module Microsoft.Graph -Scope CurrentUser<br>
 <strong>Enter:</strong><br>
 Get-InstalledModule Microsoft.Graph.* | select <strong>name</strong><br>
@@ -490,9 +505,10 @@ Microsoft Authenticator, Smart Lockout Policies ()<br>
 -<br>
 Permissions, Roles, Privileged Identity Management<br></p>
 </div>
-<div class="paragraph">
-<p>LAB 2<br></p>
 </div>
+</div>
+<div class="sect3">
+<h4 id="_lab_2">LAB 2<br></h4>
 <div class="sect4">
 <h5 id="_1_assign_license">1 Assign License</h5>
 <div class="paragraph">
@@ -518,13 +534,30 @@ Check 0 users and groups selected &#8594; Select Exclude &#8594; Users and Group
 Targer resources &#8594; No target selected &#8594; Include (do nothing) &#8594; Select apps (radiobutton) &#8594; Check it &#8594; Include &#8594; <br>
 Select All cloud apps<br>
 Conditions &#8594; 0 conditions selected &#8594; Locations &#8594; Not Configured &#8594; Configure Toggle to Yes &#8594; Exclude &#8594; Selected Locations &#8594; Select &#8594; Verify None &#8594; Access Controls &#8594; Grant &#8594; 0 controls selected &#8594; Grant pane &#8594; Grant Acess &#8594; Require multifactor authentication &#8594; Select &#8594; Enable Policy to On &#8594; Create<br>
-XXXXXXXXXXX<br>
--4- +&#8201;&#8212;&#8201;Sign Out &#8594; Zoek wachtwoord user op &#8594; login met MFA +&#8201;&#8212;&#8201;Lid van de andere groep heeft nergens last van<br>
--5- +&#8201;&#8212;&#8201;Server Manager &#8594; Tools &#8594;select Group Policy Management &#8594; expand Domains &#8594; expand Adatum.com &#8594; right-click on Default  +&#8201;&#8212;&#8201;Domain Policy &#8594; select Edit &#8594; under Computer Configuration &#8594; expand Policies &#8594; expand Windows Settings &#8594;  +&#8201;&#8212;&#8201;expand Security Settings &#8594; expand Account Policies &#8594; select Account Lockout Policy<br>
----- +&#8201;&#8212;&#8201;Login &#8594; select Admin &#8594; select Identity &#8594; select Protection &#8594; select Authentication methods &#8594; select Password protection +&#8201;&#8212;&#8201;Fill out Lockout threshold: 3 &#8594; Lockout duration in seconds: 90 &#8594; Enforce custom list: select Yes +&#8201;&#8212;&#8201;Custom banned password list: (kies woorden per regel) &#8594; Mode select Enforced &#8594; Save +&#8201;&#8212;&#8201;User-Icoontje rechtsboven &#8594; View Account &#8594; Change Password &#8594; check de regels<br></p>
+XXXXXXXXXXX<br></p>
 </div>
+</div>
+<div class="sect4">
+<h5 id="_4">4-<br></h5>
 <div class="paragraph">
-<p>&#8201;&#8212;&#8201;Lab 3 +&#8201;&#8212;&#8201;logged in &#8594; select Users &#8594; Active Users &#8594; select Diego Siciliani &#8594; select Manage roles &#8594; select the Admin center access option  +&#8201;&#8212;&#8201;Show all by category &#8594; Other - select Billing Administrator check box &#8594; Save &#8594; select the X <br></p>
+<p>Sign Out &#8594; Zoek wachtwoord user op &#8594; login met MFA<br>
+Lid van de andere groep heeft nergens last van<br>
+===== 5-<br>
+Server Manager &#8594; Tools &#8594;select Group Policy Management &#8594; expand Domains &#8594; expand Adatum.com &#8594; right-click on Default <br>
+Domain Policy &#8594; select Edit &#8594; under Computer Configuration &#8594; expand Policies &#8594; expand Windows Settings &#8594; <br>
+expand Security Settings &#8594; expand Account Policies &#8594; select Account Lockout Policy<br>
+----<br>
+Login &#8594; select Admin &#8594; select Identity &#8594; select Protection &#8594; select Authentication methods &#8594; select Password protection<br>
+Fill out Lockout threshold: 3 &#8594; Lockout duration in seconds: 90 &#8594; Enforce custom list: select Yes<br>
+Custom banned password list: (kies woorden per regel) &#8594; Mode select Enforced &#8594; Save<br>
+User-Icoontje rechtsboven &#8594; View Account &#8594; Change Password &#8594; check de regels<br></p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_lab_3">Lab 3<br></h4>
+<div class="paragraph">
+<p>&#8201;&#8212;&#8201;logged in &#8594; select Users &#8594; Active Users &#8594; select Diego Siciliani &#8594; select Manage roles &#8594; select the Admin center access option  +&#8201;&#8212;&#8201;Show all by category &#8594; Other - select Billing Administrator check box &#8594; Save &#8594; select the X <br></p>
 </div>
 <div class="paragraph">
 <p>&#8594; Teams &amp; groups &#8594; Active teams &amp; groups &#8594; Security groups tab &#8594; +Add a security group &#8594; enter User management role group &#8594; Select Next &#8594; select Azure AD roles can be assigned &#8594; Next &#8594; Create group &#8594; Close.<br>
@@ -853,7 +886,7 @@ Select Send.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-05-05 23:24:32 +0200
+Last updated 2024-05-05 23:26:09 +0200
 </div>
 </div>
 </body>

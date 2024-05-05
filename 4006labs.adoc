@@ -19,20 +19,23 @@ https://learn.microsoft.com/en-us/training/paths/manage-data-compliance-copilot-
 Graph, Sociale Zaken in organisatie, Connectors, NLP, LLM, Prepare Data, Secure Data, initiate staff, Compliance,
 Propriety Data, Isolation and Access Control
 
-LAB1
+==== LAB1
 https://labs3.virsoft.net/the-academy/ms-102/html5?user=150
 
 admin@WWLx787064.onmicrosoft.com +
 Pa55w.rd23 +
 Pa66w.rd42
 
--1- Login +
--2- Wijzig Organisation Information +
+===== 1- Login +
+
+===== 2- Wijzig Organisation Information +
 -- inloggen portal.office.com -> admin icoontje -> Show all -> Settings -> OrgSettings -> Organization information +
--3- Custom Theme Aanmaken +
+
+===== 3- Custom Theme Aanmaken +
 -- Teams & Groups -> Active Teams & Groups -> + Add a Team (TEAMX) -> Finish +
 -- Show all -> Settings -> Org Settings -> Organisation Profile -> Custom Themes -> + Add Theme +
--4- Install Graph +
+
+===== 4- Install Graph +
 *Enter:* +
 Install-Module Microsoft.Graph -Scope CurrentUser +
 *Enter:* +
@@ -50,7 +53,7 @@ Microsoft Authenticator, Smart Lockout Policies () +
 - +
 Permissions, Roles, Privileged Identity Management +
 
-LAB 2 +
+==== LAB 2 +
 
 ===== 1 Assign License
 Billing -> Licenses -> (Check no license available) ->  +
@@ -70,22 +73,23 @@ Targer resources -> No target selected -> Include (do nothing) -> Select apps (r
 Select All cloud apps +
 Conditions -> 0 conditions selected -> Locations -> Not Configured -> Configure Toggle to Yes -> Exclude -> Selected Locations -> Select -> Verify None -> Access Controls -> Grant -> 0 controls selected -> Grant pane -> Grant Acess -> Require multifactor authentication -> Select -> Enable Policy to On -> Create +
 XXXXXXXXXXX +
--4- +
--- Sign Out -> Zoek wachtwoord user op -> login met MFA +
--- Lid van de andere groep heeft nergens last van +
--5- +
--- Server Manager -> Tools ->select Group Policy Management -> expand Domains -> expand Adatum.com -> right-click on Default  +
--- Domain Policy -> select Edit -> under Computer Configuration -> expand Policies -> expand Windows Settings ->  +
--- expand Security Settings -> expand Account Policies -> select Account Lockout Policy +
+
+===== 4- +
+Sign Out -> Zoek wachtwoord user op -> login met MFA +
+Lid van de andere groep heeft nergens last van +
+===== 5- +
+Server Manager -> Tools ->select Group Policy Management -> expand Domains -> expand Adatum.com -> right-click on Default  +
+Domain Policy -> select Edit -> under Computer Configuration -> expand Policies -> expand Windows Settings ->  +
+expand Security Settings -> expand Account Policies -> select Account Lockout Policy +
 ---- +
--- Login -> select Admin -> select Identity -> select Protection -> select Authentication methods -> select Password protection +
--- Fill out Lockout threshold: 3 -> Lockout duration in seconds: 90 -> Enforce custom list: select Yes +
--- Custom banned password list: (kies woorden per regel) -> Mode select Enforced -> Save +
--- User-Icoontje rechtsboven -> View Account -> Change Password -> check de regels +
+Login -> select Admin -> select Identity -> select Protection -> select Authentication methods -> select Password protection +
+Fill out Lockout threshold: 3 -> Lockout duration in seconds: 90 -> Enforce custom list: select Yes +
+Custom banned password list: (kies woorden per regel) -> Mode select Enforced -> Save +
+User-Icoontje rechtsboven -> View Account -> Change Password -> check de regels +
 
 
 
--- Lab 3 +
+==== Lab 3 +
 -- logged in -> select Users -> Active Users -> select Diego Siciliani -> select Manage roles -> select the Admin center access option  +
 -- Show all by category -> Other - select Billing Administrator check box -> Save -> select the X  +
 
