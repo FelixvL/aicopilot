@@ -1,0 +1,95 @@
+=== Programma 4006 gecombineerd met 4005 en 4004
+
+==== 900 - 930
+Opening Voorstelronde: +
+*Accent op:* @TheAcademyPortal, Labomgeving, AI Tutor, Ophalen Batch, Noodprocedures (herhalen om 16:30), Programma dag +
+*ToDo:* 4006, 4005, 4004 toevoegen aan AI Tutor (Felix) +
+
+==== 1030 - 1015
+Aanmaken Accounts door docent in admin.office.com waardoor Studenten toegang hebben tot Copilot 365 +
+
+==== 1030 - 1130
+*Accent op:* Powerpoints en demonstraties mbv Microsoft Learn 4005 +
+*Exercise (als demo gegeven)*, deeplink: https://learn.microsoft.com/en-us/training/paths/empower-workforce-copilot-use-cases/ +
+
+*Essentie (4004 ppt1)*  Copilot, LLM, NLP en toepassing in Word, Excel, PowerPoint, Outlook, Teams +
+		Prompting en Plugins +
+*Essentie (4004 ppt2)* Use Cases: Executives, Sales, IT, Marketing, Finance, HR, Operations, Challange +
+*Essentie (4005 ppt1)* Functies Copilot is Word, Excel, Outlook, Powerpoint, Teams +
+*Essentie (4005 ppt1)* Prompting Best Practices in Copilot is Word, Excel, Outlook, Powerpoint, Teams +
+
+4004 en 4005 lijken veel op elkaar, Pak dus vooral de 4004 als uitganspunt en gebruik de diepgang die in 4005 genoemd wordt. +
+*ToDo:* Uitzoeken hoe Activeren Plugins werkt (Gerben, Felix, Leo) +
+
+===== Inhoud interactieve Demonstratie +
+Word +
+Excel +
+Powerpoint
+Outlook +
+Teams +
+Whiteboard +
+Loop +
+copilot.microsoft.com (Web vs Work) +
+Copilot in office portal /GraphBased chat
+
+==== 1130 - 1200 4006 start Powerpoint 1
+* Graph Connectors - Custom Graph Connectors
+* Purview Information Protection
+* Sensitivity Labels
+* Entra Conditional Access Policies
+* Entra Privileged Identity Management (PIM)
+* SharePoint access Reviews
+* Graph Connectors en Plugins
+- - - 
+* Center Of Excellence
+- - -
+* Entra
+
+==== 1245 - 1330 4006 lab1
+credentials, org profile, theme, graph install, ??audit logging??
+
+==== 1330 Powerpoint 2 deel 1
+* EntraId, adminCenter, SSO, GraphPowerShell, GraphAPI  +
+https://developer.microsoft.com/en-us/graph/graph-explorer
+* signal,decision,enforcement
+* PassThrough Authentication
+* MultiFactor Authentication
+* passwordless sign in
+* self service password management
+* Hello for Business
+* Entra Smart Lockout
+* Logs (Sign in logs - Audit logs - Provisioning logs)
+
+==== 1400 lab 2 deel 1
+administrator, user account passwords, Conditional Access Policy, MFA, Entra Smart Lockout
+
+==== 1430 Powerpoint 2 deel 2
+* Roles, Scopes, Assignments
+* AdminCenter, EntraID, Defender Portal, Purview
+* Least Privilige, PIM, MFA, reviews, Max 5, Via Groups, Cloud Native Accounts
+* Adminrechten delegeren naar externe partij
+* Role Groepen
+* Administrative Units
+* Priviliged Identity Management (PIM)
+
+==== 1500 lab 2 deel 2
+administrator, rolegroup, with powershell, validate assignment
+
+==== 1530 Powerpoint 3
+* Data Classification
+* Manually vs Pattern Matching vs Trainable
+* Retrain Classifier
+* Content Explorer vs Actvity Explorer
+* FingerPrinting
+* Sensitivity Labels
+* Actions Sensitivity Label
+* Scopes, Priority, Sublabels
+* Assign
+* Label Policies
+* Deployment Strategy
+
+==== 1600 lab 3
+Bekijken effecten in gezamelijke tenant
+
+
+
