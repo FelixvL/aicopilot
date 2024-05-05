@@ -2,7 +2,7 @@
 
 
 
-4 Labs
+4 Labs +
 https://github.com/MicrosoftLearning/MS-4006-Copilot-for-Microsoft-365-for-Administrators/tree/master/Instructions/Labs
 
 
