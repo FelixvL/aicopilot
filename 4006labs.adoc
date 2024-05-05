@@ -77,6 +77,7 @@ XXXXXXXXXXX +
 ===== 4- +
 Sign Out -> Zoek wachtwoord user op -> login met MFA +
 Lid van de andere groep heeft nergens last van +
+
 ===== 5- +
 Server Manager -> Tools ->select Group Policy Management -> expand Domains -> expand Adatum.com -> right-click on Default  +
 Domain Policy -> select Edit -> under Computer Configuration -> expand Policies -> expand Windows Settings ->  +
@@ -90,8 +91,8 @@ User-Icoontje rechtsboven -> View Account -> Change Password -> check de regels 
 
 
 ==== Lab 3 +
--- logged in -> select Users -> Active Users -> select Diego Siciliani -> select Manage roles -> select the Admin center access option  +
--- Show all by category -> Other - select Billing Administrator check box -> Save -> select the X  +
+logged in -> select Users -> Active Users -> select Diego Siciliani -> select Manage roles -> select the Admin center access option  +
+Show all by category -> Other - select Billing Administrator check box -> Save -> select the X  +
 
 
 -> Teams & groups -> Active teams & groups -> Security groups tab -> +Add a security group -> enter User management role group -> Select Next -> select Azure AD roles can be assigned -> Next -> Create group -> Close. +
