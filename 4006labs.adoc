@@ -56,10 +56,11 @@ LAB 2 +
 Billing -> Licenses -> (Check no license available) ->  +
 Users -> Active Users -> click on Christie Cline -> Licenses and apps tab -> clear checkbox -> Save +
 Users -> Active Users -> + Add a user (USERX) -> assign License -> Roles: Admin center access -> Global administrator -> Finish +
--2- Setup Account +
--- Ga in LON01 naar portal.office.com -> sign out -> sign in as USERX -> go to Admin Center  +
--- Teams & Groups -> Active Teams & Groups -> Select Your TEAMX -> Membership -> Members -> + Add Members -> USERX -> Refresh +
--- Check Theme changements -> User -> Active Users -> Hover over name click Key(reset password) +
+
+===== 2- Setup Account +
+Ga in LON01 naar portal.office.com -> sign out -> sign in as USERX -> go to Admin Center  +
+Teams & Groups -> Active Teams & Groups -> Select Your TEAMX -> Membership -> Members -> + Add Members -> USERX -> Refresh +
+Check Theme changements -> User -> Active Users -> Hover over name click Key(reset password) +
 XXXXXXNOG EEN KEER DOEN +
 -3- Deploy MFA Conditional Access +
 -- Under Admin Centers select Identity -> Protection -> Conditional Access -> Policies -> + New Policy -> Fill Name  +
