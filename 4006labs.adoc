@@ -6,8 +6,8 @@
 https://github.com/MicrosoftLearning/MS-4006-Copilot-for-Microsoft-365-for-Administrators/tree/master/Instructions/Labs
 
 
-PowerPoint - Introduction
-3 LearningPaths
+PowerPoint - Introduction +
+3 LearningPaths +
 1
 https://learn.microsoft.com/en-us/training/paths/prepare-your-organization-microsoft-365-copilot/
 2
