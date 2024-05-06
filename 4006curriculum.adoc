@@ -64,7 +64,7 @@ _Dit is een inlogmethode waarmee gebruikers kunnen inloggen met dezelfde inlogge
 * self service password management
 * *Hello for Business (12)* +
 _biometrische gebaseerde authenticatiemethode_
-* *Entra Smart Lockout* +
+* *Entra Smart Lockout (13)* +
 _teveel login attempts_
 * Logs (Sign in logs - Audit logs - Provisioning logs)
 
