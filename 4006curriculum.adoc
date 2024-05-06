@@ -72,7 +72,7 @@ _teveel login attempts_
 administrator, user account passwords, Conditional Access Policy, MFA, Entra Smart Lockout
 
 ==== 1430 Powerpoint 2 deel 2
-* Roles, Scopes, Assignments (22)
+* *Roles, Scopes, Assignments* (22) +
 * AdminCenter, EntraID, Defender Portal, Purview
 * Least Privilige, PIM, MFA, reviews, Max 5, Via Groups, Cloud Native Accounts
 * Adminrechten delegeren naar externe partij
