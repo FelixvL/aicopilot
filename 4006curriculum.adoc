@@ -55,7 +55,8 @@ credentials, org profile, theme, graph install, ??audit logging??
 ==== 1330 Powerpoint 2 deel 1
 * EntraId, adminCenter, SSO, GraphPowerShell, GraphAPI  +
 https://developer.microsoft.com/en-us/graph/graph-explorer[https://developer.microsoft.com/en-us/graph/graph-explorer, window="_blank"]
-* signal,decision,enforcement
+* signal,decision,enforcement +
+_fasen in toegangscontrole_
 * *PassThrough Authentication (8)* +
 _Dit is een inlogmethode waarmee gebruikers kunnen inloggen met dezelfde inloggegevens die ze binnen hun bedrijfsnetwerk gebruiken, zonder dat hun wachtwoorden in de cloud worden opgeslagen_
 * MultiFactor Authentication
