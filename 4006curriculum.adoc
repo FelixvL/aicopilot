@@ -33,7 +33,7 @@ copilot.microsoft.com (Web vs Work) +
 Copilot in office portal /GraphBased chat
 
 ==== 1130 - 1200 4006 start Powerpoint 1
-* Graph Connectors - Custom Graph Connectors
+* Graph Connectors - Custom Graph Connectors +
 _dit is schuin_
 * Purview Information Protection
 * Sensitivity Labels
