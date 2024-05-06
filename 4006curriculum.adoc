@@ -1,5 +1,3 @@
-:stylesheet: kleurenbepaling.css
-
 === Programma 4006 gecombineerd met 4005 en 4004
 
 
