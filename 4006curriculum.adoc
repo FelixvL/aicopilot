@@ -57,6 +57,7 @@ credentials, org profile, theme, graph install, ??audit logging??
 https://developer.microsoft.com/en-us/graph/graph-explorer[https://developer.microsoft.com/en-us/graph/graph-explorer, window="_blank"]
 * signal,decision,enforcement
 * PassThrough Authentication
+_Dit is een inlogmethode waarmee gebruikers kunnen inloggen met dezelfde inloggegevens die ze binnen hun bedrijfsnetwerk gebruiken, zonder dat hun wachtwoorden in de cloud worden opgeslagen_
 * MultiFactor Authentication
 * passwordless sign in
 * self service password management
