@@ -66,7 +66,7 @@ _Dit is een inlogmethode waarmee gebruikers kunnen inloggen met dezelfde inlogge
 _biometrische gebaseerde authenticatiemethode_
 * *Entra Smart Lockout (13)* +
 _teveel login attempts_
-* Logs (Sign in logs - Audit logs - Provisioning logs)
+* Logs (15)(Sign in logs - Audit logs - Provisioning logs)
 
 ==== 1400 lab 2 deel 1
 administrator, user account passwords, Conditional Access Policy, MFA, Entra Smart Lockout
