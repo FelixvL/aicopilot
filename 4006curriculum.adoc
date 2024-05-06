@@ -74,7 +74,11 @@ administrator, user account passwords, Conditional Access Policy, MFA, Entra Sma
 ==== 1430 Powerpoint 2 deel 2
 * *Roles, Scopes, Assignments* (22) +
 _rol definieren, reikwijdte instellen, toekennen aan groepen of users_
-* AdminCenter, EntraID, Defender Portal, Purview
+* AdminCenter, EntraID, Defender Portal, Purview +
+_https://admin.office.com/_ +
+_https://entra.microsoft.com/_ +
+_https://security.microsoft.com/_ +
+_https://compliance.microsoft.com/_ +
 * Least Privilige, PIM, MFA, reviews, Max 5, Via Groups, Cloud Native Accounts
 * Adminrechten delegeren naar externe partij
 * Role Groepen
