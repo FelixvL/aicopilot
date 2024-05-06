@@ -62,7 +62,7 @@ _Dit is een inlogmethode waarmee gebruikers kunnen inloggen met dezelfde inlogge
 * MultiFactor Authentication
 * passwordless sign in
 * self service password management
-* *Hello for Business* +
+* *Hello for Business (12)* +
 _biometrische gebaseerde authenticatiemethode_
 * *Entra Smart Lockout* +
 _teveel login attempts_
