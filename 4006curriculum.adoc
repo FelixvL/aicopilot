@@ -34,7 +34,7 @@ copilot.microsoft.com (Web vs Work) +
 Copilot in office portal /GraphBased chat
 
 ==== 1130 - 1200 4006 start Powerpoint 1
-* Graph Connectors - Custom Graph Connectors +
+* *Graph Connectors - Custom Graph Connectors* +
 _Graph connectors, in de context van Microsoft Graph, zijn tools waarmee organisaties hun externe gegevensbronnen kunnen indexeren om deze te integreren met Microsoft Search_
 * Purview Information Protection
 * Sensitivity Labels
