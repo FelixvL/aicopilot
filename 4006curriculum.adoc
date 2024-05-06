@@ -45,9 +45,9 @@ _https://entra.microsoft.com/ toegangsmogelijkheden_
 * SharePoint access Reviews
 * Graph Connectors en Plugins
 * -
-* Center Of Excellence
+* Center Of Excellence (19)
 * -
-* Entra
+* Entra (26)
 
 ==== 1245 - 1330 4006 lab1
 credentials, org profile, theme, graph install, ??audit logging??
