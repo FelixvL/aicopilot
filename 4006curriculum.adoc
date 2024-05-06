@@ -39,7 +39,8 @@ _Graph connectors, in de context van Microsoft Graph, zijn tools waarmee organis
 * *Purview Information Protection (17)* +
 _https://compliance.microsoft.com/ tool voor compliance en governance_
 * Sensitivity Labels
-* Entra Conditional Access Policies
+* Entra Conditional Access Policies +
+_https://entra.microsoft.com/ _ +
 * Entra Privileged Identity Management (PIM)
 * SharePoint access Reviews
 * Graph Connectors en Plugins
