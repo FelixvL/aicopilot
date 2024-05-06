@@ -36,7 +36,7 @@ Copilot in office portal /GraphBased chat
 ==== 1130 - 1200 4006 start Powerpoint 1
 * *Graph Connectors - Custom Graph Connectors(9)* +
 _Graph connectors, in de context van Microsoft Graph, zijn tools waarmee organisaties hun externe gegevensbronnen kunnen indexeren om deze te integreren met Microsoft Search_
-* Purview Information Protection
+* *Purview Information Protection (17)* +
 * Sensitivity Labels
 * Entra Conditional Access Policies
 * Entra Privileged Identity Management (PIM)
