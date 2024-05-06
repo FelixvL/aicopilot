@@ -1,7 +1,7 @@
 === Programma 4006 gecombineerd met 4005 en 4004
 
 
-==== 900 - 930
+==== 900 - 930 
 *Opening Voorstelronde:* +
 *Accent op:* @TheAcademyPortal, Labomgeving, AI Tutor, Ophalen Batch, Noodprocedures (herhalen om 16:30), Programma dag +
 *ToDo:* 4006, 4005, 4004 toevoegen aan AI Tutor (Felix) +

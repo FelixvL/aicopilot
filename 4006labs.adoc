@@ -139,7 +139,7 @@ New-MgDirectoryRoleMemberByRef -DirectoryRoleId '71c115d1-1126-425a-be5d-addaf69
 *Enter:* +
 Get-MgDirectoryRoleMember -DirectoryRoleId '71c115d1-1126-425a-be5d-addaf6930d41'  +
 
--4-
+===== Lab 4-
 
 
 
@@ -169,7 +169,7 @@ https://learn.microsoft.com/en-us/training/modules/implement-sensitivity-labels-
 
 Go to: https://www.microsoft.com/en-us/download/confirmation.aspx?id=53018 -> Azure Information Protection Unified Label client. +
 
-in admin center -> ... Show -> Select Compliance -> select Labels -> Turn on now -> +Create a label +
+in admin center -> ... Show -> Select Compliance ->Information protection -> select Labels -> Turn on now -> +Create a label +
 -> Fill Something -> Select Next -> select Next -> select Both -> select Next +
 On  Content marking page, set the Content marking toggle switch to On.  +
 Enter the three options and customize text +
