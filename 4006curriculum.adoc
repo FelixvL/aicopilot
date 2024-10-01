@@ -105,4 +105,26 @@ administrator, rolegroup, with powershell, validate assignment
 Bekijken effecten in gezamelijke tenant
 
 
+Batch 
 
+Evaluatie
+
+Beschikbaarheid Lesstof
+
+4004 Tweede oefening
+
+4005 Presentatie 2 Prompting
+
+4007 Inwerken Center of Excellence
+
+https://learn.microsoft.com/en-us/training/paths/empower-workforce-copilot-use-cases/
+
+pdf
+0111.nl/ai/ai.pdf
+
+De toegankelijke
+https://www.youtube.com/watch?v=uCIa6V4uF84
+
+
+De pittige technisch
+- https://www.youtube.com/watch?v=flXrLGPY3SU
